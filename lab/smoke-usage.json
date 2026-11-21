@@ -1,0 +1,38 @@
+{
+  "estimated_cost_usd": null,
+  "cost_status": null,
+  "cost_source": null,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_read_tokens": null,
+  "cache_write_tokens": null,
+  "reasoning_tokens": null,
+  "total_tokens": null,
+  "api_calls": 1,
+  "model": "qwen3:4b-instruct",
+  "provider": "custom",
+  "session_id": "local-b16c65fd93460a3a3bc7183c2aa6bbfc84ff9517fd981cc397feb564b913de97",
+  "completed": false,
+  "partial": true,
+  "interrupted": false,
+  "turn_exit_reason": null,
+  "failed": true,
+  "service_tier": null,
+  "auxiliary": {
+    "api_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 0,
+    "estimated_cost_usd": 0,
+    "total_tokens": 0,
+    "by_task": {}
+  },
+  "total_including_auxiliary": {
+    "estimated_cost_usd": null,
+    "total_tokens": 0,
+    "api_calls": 1
+  },
+  "failure": "This conversation has grown too long for qwen3:4b-instruct to read, and Hermes couldn't shrink it enough automatically. Start a new session with /new (your history is kept), or try /compress once more. Switching to a model with a bigger context window also works."
+}

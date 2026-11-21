@@ -1,0 +1,37 @@
+{
+  "estimated_cost_usd": 0.0,
+  "cost_status": "unknown",
+  "cost_source": "none",
+  "input_tokens": 32827,
+  "output_tokens": 71,
+  "cache_read_tokens": 21817,
+  "cache_write_tokens": 0,
+  "reasoning_tokens": 0,
+  "total_tokens": 32898,
+  "api_calls": 3,
+  "model": "hermes-lab-qwen3-12k",
+  "provider": "custom",
+  "session_id": "local-1193e9dcf28d23d9f5510efdd8ebbd4df1100b0a01f8f0986c6e78a8adea4e28",
+  "completed": true,
+  "partial": false,
+  "interrupted": false,
+  "turn_exit_reason": "text_response(finish_reason=stop)",
+  "failed": false,
+  "service_tier": null,
+  "auxiliary": {
+    "api_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 0,
+    "estimated_cost_usd": 0,
+    "total_tokens": 0,
+    "by_task": {}
+  },
+  "total_including_auxiliary": {
+    "estimated_cost_usd": 0.0,
+    "total_tokens": 32898,
+    "api_calls": 3
+  }
+}

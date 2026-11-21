@@ -1,0 +1,2 @@
+turn_seconds=31
+review_wait=41

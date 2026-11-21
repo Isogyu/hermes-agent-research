@@ -1,0 +1,1 @@
+{"name": "h4-explicit-2", "outside_refs": 0, "month": "2026-03", "seconds": 44, "api_calls": 7, "input": 111936, "cache_read": 96768, "output": 1289, "tool_calls": 10, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 1, "pass": true, "check": {"score": 1, "pass": true, "attempts": 2, "codes": ["E42", "ACCEPTED"]}, "completed": true}

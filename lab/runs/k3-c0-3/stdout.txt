@@ -1,0 +1,5 @@
+Created and verified the April 2026 sales report at:
+
+`out/report_2026-04.md`
+
+It follows the current reporting rules: only completed sales, configured USD-to-JPY conversion, rounded category totals, and a grand total of 40,430,000 JPY.

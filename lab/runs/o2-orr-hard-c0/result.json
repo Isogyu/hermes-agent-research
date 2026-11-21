@@ -1,0 +1,1 @@
+{"name": "o2-orr-hard-c0", "outside_refs": 0, "month": "2026-03", "seconds": 91, "api_calls": 14, "input": 216428, "cache_read": 170976, "output": 4717, "tool_calls": 17, "skill_view": 0, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "pass": false, "attempts": 4, "codes": ["E11", "E23", "E31", "LOCKED"]}, "completed": true}

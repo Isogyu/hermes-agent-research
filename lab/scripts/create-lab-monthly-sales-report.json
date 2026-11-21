@@ -1,0 +1,22 @@
+[
+ {
+  "tool_calls": [
+   {
+    "name": "skill_manage",
+    "arguments": {
+     "operations": [
+      {
+       "action": "create",
+       "name": "lab-monthly-sales-report",
+       "content": "---\nname: lab-monthly-sales-report\ndescription: Build the monthly sales report from sales.csv with category totals and three findings.\nversion: 1.0.0\n---\n# Monthly sales report\n\n1. Run `python3 scripts/summarize.py sales.csv` to get category totals.\n2. Write `report.md` with the totals table and three bullet findings.\n3. Verify the grand total equals the sum of the CSV `amount` column.\n",
+       "category": "lab"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "text": "saved"
+ }
+]

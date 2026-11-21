@@ -1,0 +1,1 @@
+{"name": "d2-hermes-codex", "outside_refs": 0, "month": "x", "seconds": 61, "api_calls": 11, "input": 184563, "cache_read": 152576, "output": 605, "tool_calls": 10, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 9, "pass": true, "check": {"score": 9, "of": 9, "pass": true, "tests_edited": false}, "completed": true}

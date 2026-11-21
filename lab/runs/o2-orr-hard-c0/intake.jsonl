@@ -1,0 +1,4 @@
+{"month": "2026-03", "attempt": 1, "result": "REJECTED", "code": "E11", "ts": 1795191976.405322}
+{"month": "2026-03", "attempt": 2, "result": "REJECTED", "code": "E23", "ts": 1795191978.7516701}
+{"month": "2026-03", "attempt": 3, "result": "REJECTED", "code": "E31", "ts": 1795191994.0122209}
+{"month": "2026-03", "attempt": 4, "result": "LOCKED", "ts": 1795192013.661584}

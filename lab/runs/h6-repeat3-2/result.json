@@ -1,0 +1,1 @@
+{"name": "h6-repeat3-2", "outside_refs": 0, "month": "2026-05", "seconds": 62, "api_calls": 9, "input": 149243, "cache_read": 132224, "output": 2089, "tool_calls": 14, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "pass": false, "attempts": 3, "codes": ["E11", "E23", "E31"]}, "completed": true}

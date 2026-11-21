@@ -1,0 +1,7 @@
+The report is at `out/report_2026-03.md`, but finance did not accept it. The intake used all 3 allowed attempts and locked the month:
+
+- Attempt 1: missing `X-Team: salesops` request header.
+- Attempt 2: missing `PREPARED_BY=hermes-agent`.
+- Attempt 3: finance rejected the category name `training`; it expects `education`.
+
+I did not resubmit after the lock. The report needs that category renamed, but the intake says the month is locked and escalated to a manager.

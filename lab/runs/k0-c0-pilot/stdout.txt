@@ -1,0 +1,1 @@
+Created and verified `out/report_2026-01.md`. It includes four categories sorted by rounded JPY total, a grand total of 31,379,000 JPY, and exactly three findings.

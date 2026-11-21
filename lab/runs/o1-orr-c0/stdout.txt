@@ -1,0 +1,6 @@
+Report written to `out/report_2026-03.md` with:
+- 4 categories (services, hardware, software, training) from completed rows only
+- USD converted at 152.4 JPY
+- Each category rounded to nearest 1,000 JPY
+- Grand total = sum of rounded categories = 28,258,000 JPY
+- Three findings bullets as required

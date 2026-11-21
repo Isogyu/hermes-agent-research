@@ -1,0 +1,7 @@
+Generated and validated the January 2026 sales report:
+
+`out/report_2026-01.md`
+
+Created the reusable `monthly-sales-report` skill with the current team rules and a script that generates and validates reports for any `YYYY-MM` month. From a salesops workspace, run:
+
+`python3 "/Users/user/Nous Research/lab/homes/trained2/skills/productivity/monthly-sales-report/scripts/monthly_sales_report.py" YYYY-MM`

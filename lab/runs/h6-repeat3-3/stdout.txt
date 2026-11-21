@@ -1,0 +1,1 @@
+The report is at `out/report_2026-06.md`, with totals calculated under the current team rules. Finance did not accept it: the intake rejected `training` because it uses the category name `education`. That was attempt 3 of 3, so the month is now locked; I did not retry. It needs manager escalation before another submission.

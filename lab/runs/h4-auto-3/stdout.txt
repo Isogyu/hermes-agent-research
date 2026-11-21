@@ -1,0 +1,5 @@
+The April 2026 report is prepared and validated at:
+
+`/private/tmp/claude-501/-Users-user-Nous-Research/ceec3039-bce5-415d-ba74-7bfacaf0f9f1/scratchpad/iso/h4-auto-3/salesops/out/report_2026-04.md`
+
+It totals 40,430,000 JPY across four categories and includes exactly three findings. Finance did not accept it: the first two attempts identified a required `X-Team: salesops` header and `PREPARED_BY=hermes-agent` line, which I added. The third and final attempt rejected the category label `training`, specifying `education` instead. I updated the report to reflect that alias, but the intake limit is exhausted, so it remains unsubmitted and needs finance/manager escalation to reopen.

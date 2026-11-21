@@ -1,0 +1,1 @@
+{"name": "h4-auto-3", "outside_refs": 0, "month": "2026-04", "seconds": 69, "api_calls": 11, "input": 180627, "cache_read": 156160, "output": 2314, "tool_calls": 15, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "pass": false, "attempts": 3, "codes": ["E11", "E23", "E31"]}, "completed": true}

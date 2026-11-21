@@ -1,0 +1,70 @@
+{
+ "name": "m1-repeat3",
+ "patched": false,
+ "turns": [
+  {
+   "month": "2026-01",
+   "seconds": 89,
+   "usage": {
+    "input_tokens": 520127,
+    "output_tokens": 1686,
+    "total_tokens": 521813
+   },
+   "attempts": 6,
+   "codes": [
+    "E11",
+    "E23",
+    "E31",
+    "E42",
+    "E57",
+    "ACCEPTED"
+   ],
+   "review_wait": 44
+  },
+  {
+   "month": "2026-02",
+   "seconds": 33,
+   "usage": {
+    "input_tokens": 259737,
+    "output_tokens": 761,
+    "total_tokens": 260498
+   },
+   "attempts": 2,
+   "codes": [
+    "E31",
+    "ACCEPTED"
+   ],
+   "review_wait": 60
+  },
+  {
+   "month": "2026-03",
+   "seconds": 31,
+   "usage": {
+    "input_tokens": 293951,
+    "output_tokens": 729,
+    "total_tokens": 294680
+   },
+   "attempts": 2,
+   "codes": [
+    "E31",
+    "ACCEPTED"
+   ],
+   "review_wait": 10
+  }
+ ],
+ "reviews": [
+  "thread=bg-review calls=5 in=6565 out=1746 cache_read=145664 result=skill",
+  "thread=bg-review calls=3 in=3424 out=208 cache_read=106752 result=skill"
+ ],
+ "new_files": [
+  "skills/productivity/operational-reporting/SKILL.md"
+ ],
+ "conventions_found": {
+  "X-Team": 0,
+  "PREPARED_BY": 0,
+  "education": 0,
+  "CURRENCY=JPY": 0,
+  "CHECKSUM": 0
+ },
+ "n_found": 0
+}

@@ -1,0 +1,5 @@
+The report was calculated and written to:
+
+/private/tmp/claude-501/-Users-user-Nous-Research/ceec3039-bce5-415d-ba74-7bfacaf0f9f1/scratchpad/iso/h4-auto-2/salesops/out/report_2026-03.md
+
+It was not accepted by finance. The intake used all 3 permitted attempts; the final rejection says finance calls the `training` category `education`. The month is now locked, so I did not attempt another submission.

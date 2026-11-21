@@ -1,0 +1,1 @@
+2026-11-21 00:55:01,263 Turn ended: reason=text_response(finish_reason=stop) model=gpt-6-luna api_calls=7/9223372036854775807

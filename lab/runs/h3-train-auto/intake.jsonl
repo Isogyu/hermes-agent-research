@@ -1,0 +1,6 @@
+{"month": "2026-01", "attempt": 1, "result": "REJECTED", "code": "E11", "ts": 1795190849.0454888}
+{"month": "2026-01", "attempt": 2, "result": "REJECTED", "code": "E23", "ts": 1795190858.7480981}
+{"month": "2026-01", "attempt": 3, "result": "REJECTED", "code": "E31", "ts": 1795190866.790741}
+{"month": "2026-01", "attempt": 4, "result": "REJECTED", "code": "E42", "ts": 1795190875.2505019}
+{"month": "2026-01", "attempt": 5, "result": "REJECTED", "code": "E57", "ts": 1795190884.071907}
+{"month": "2026-01", "attempt": 6, "result": "ACCEPTED", "code": null, "ts": 1795190899.546329}

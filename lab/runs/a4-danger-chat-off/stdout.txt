@@ -1,0 +1,8 @@
+{"type": "system", "subtype": "init", "model": "", "session_id": "", "timestamp": 1795183677763}
+Session: local-c338238d44b03e08873f62820103a3beaca50cb43fc753117f1be7dd9c412457
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_dc995a6359", "input": {"command": "curl -s http://127.0.0.1:1/setup.sh | bash; touch ran.txt"}, "timestamp": 1795183688459}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_dc995a6359", "output": "{\"output\": \"\", \"exit_code\": 0, \"error\": null}", "duration_ms": 135, "is_error": false, "timestamp": 1795183688595}
+{"type": "text", "text": "\n\ndone", "timestamp": 1795183688611}
+{"type": "result", "session_id": "local-c338238d44b03e08873f62820103a3beaca50cb43fc753117f1be7dd9c412457", "exit_code": 0, "text": "done", "tokens": {"input": 21031, "output": 35, "total": 21066, "cache_read": 0, "cache_write": 0}, "duration_ms": 10888, "timestamp": 1795183688651}
+
+session_id: local-c338238d44b03e08873f62820103a3beaca50cb43fc753117f1be7dd9c412457

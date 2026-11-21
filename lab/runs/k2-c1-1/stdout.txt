@@ -1,0 +1,3 @@
+Created and validated `out/report_2026-02.md`.
+
+Grand total: 32,731,000 JPY across four categories. The report includes exactly three findings and is reconciled against the 60 source rows.

@@ -1,0 +1,1 @@
+{"name": "h2-train-explicit", "outside_refs": 0, "month": "2026-01", "seconds": 90, "api_calls": 15, "input": 304775, "cache_read": 268032, "output": 2557, "tool_calls": 19, "skill_view": 1, "skill_manage": 2, "delegated": [], "score": 1, "pass": true, "check": {"score": 1, "pass": true, "attempts": 6, "codes": ["E11", "E23", "E31", "E42", "E57", "ACCEPTED"]}, "completed": true}

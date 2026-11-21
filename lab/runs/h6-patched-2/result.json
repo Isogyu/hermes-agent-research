@@ -1,0 +1,1 @@
+{"name": "h6-patched-2", "outside_refs": 0, "month": "2026-05", "seconds": 78, "api_calls": 15, "input": 281384, "cache_read": 243200, "output": 2387, "tool_calls": 20, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "pass": false, "attempts": 3, "codes": ["E31", "E42", "E57"]}, "completed": true}

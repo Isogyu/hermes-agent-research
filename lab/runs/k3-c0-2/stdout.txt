@@ -1,0 +1,3 @@
+Created `out/report_2026-03.md`.
+
+Verified: 37 completed transactions included, 4 category totals sorted by amount, grand total 28,258,000 JPY, and exactly 3 Findings bullets.

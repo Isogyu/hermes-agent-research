@@ -1,0 +1,1 @@
+I couldn’t complete the delegated implementation: Claude Code is installed, but its configured model requests failed with 404 errors (`fable`, then `claude-sonnet-4-5-20250929`). The existing test suite currently fails all 9 tests because `slugify` and `wrap_title` raise `NotImplementedError`. I did not edit any files or tests.

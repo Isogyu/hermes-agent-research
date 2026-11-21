@@ -1,0 +1,3 @@
+The report is at `out/report_2026-02.md`, with the finance category name `education` and the required `PREPARED_BY=hermes-agent` field.
+
+It was not accepted: the intake rejected all 3 allowed attempts, and the final response locked the month (`E31`: finance calls `training` `education`). I corrected the report after that rejection, but the intake limit prevents resubmitting it. The corrected file still needs manager escalation or a reset to be submitted.

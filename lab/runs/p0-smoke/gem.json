@@ -1,0 +1,21 @@
+{
+  "estimated_cost_usd": null,
+  "cost_status": null,
+  "cost_source": null,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cache_read_tokens": null,
+  "cache_write_tokens": null,
+  "reasoning_tokens": null,
+  "total_tokens": null,
+  "api_calls": null,
+  "model": null,
+  "provider": null,
+  "session_id": "local-a8a44135a8c0f1f725d8aa0d7e6a7141f48eef88322e1571f6d1d393b6b5366b",
+  "completed": null,
+  "partial": null,
+  "interrupted": true,
+  "turn_exit_reason": null,
+  "failed": false,
+  "service_tier": null
+}

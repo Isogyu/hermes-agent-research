@@ -1,0 +1,1 @@
+The report is at `out/report_2026-05.md`, but finance did not accept it. The intake rejected all 3 allowed submissions; the final response required a `CHECKSUM` line. The month is now locked, so I did not retry. The report file does not yet include that checksum.

@@ -1,0 +1,1 @@
+{"name": "k1-train", "month": "2026-01", "seconds": 82, "api_calls": 13, "input": 256588, "cache_read": 219136, "output": 2624, "tool_calls": 17, "skill_view": 1, "skill_manage": 5, "score": 6, "pass": true, "check": {"file": true, "header": true, "grand_total": true, "categories": true, "sorted": true, "findings3": true, "score": 6, "pass": true}, "completed": true}

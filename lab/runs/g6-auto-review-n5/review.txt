@@ -1,0 +1,3 @@
+2026-11-21 00:59:55,097 Turn ended: reason=text_response(finish_reason=stop) model=gpt-6-luna api_calls=9/9223372036854775807
+2026-11-21 01:00:35,677 Turn ended: reason=text_response(finish_reason=stop) model=gpt-6-luna api_calls=6/16
+2026-11-21 01:00:35,685 Background review complete: thread=bg-review calls=6 in=6913 out=1681 cache_read=124672 result=skill

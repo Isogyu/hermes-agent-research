@@ -1,0 +1,3 @@
+Created and verified the July 2026 report at `out/report_2026-07.md`.
+
+It includes 51 completed or pending orders, four categories sorted by rounded totals, a reconciled grand total of 40,128,000 JPY, and exactly three findings.

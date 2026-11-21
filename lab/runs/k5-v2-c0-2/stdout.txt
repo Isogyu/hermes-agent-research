@@ -1,0 +1,1 @@
+Created and verified the report at `out/report_2026-06.md`. It includes four category totals, a grand total of 37,068,000 JPY, and exactly three findings.

@@ -1,0 +1,3 @@
+The January 2026 report was accepted by finance: `ACCEPTED 2026-01`.
+
+Report saved at `out/report_2026-01.md`. I also created the reusable `monthly-sales-finance-submission` skill with the reporting and intake requirements learned during submission, including the required header, report lines, category mapping, and checksum.

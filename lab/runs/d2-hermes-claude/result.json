@@ -1,0 +1,1 @@
+{"name": "d2-hermes-claude", "outside_refs": 0, "month": "x", "seconds": 53, "api_calls": 7, "input": 159866, "cache_read": 141696, "output": 1000, "tool_calls": 7, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "of": 9, "pass": false, "tests_edited": false}, "completed": true}

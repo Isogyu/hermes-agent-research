@@ -1,0 +1,30 @@
+{"type": "system", "subtype": "init", "model": "", "session_id": "", "timestamp": 1795183088992}
+Session: local-e356cafbc5ed9e6d68e7227eb1757c4f36b0a17ffe985d055662d1e581040062
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_b4ff6b0f56", "input": {"command": "echo step-0"}, "timestamp": 1795183096587}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_b4ff6b0f56", "output": "{\"output\": \"step-0\", \"exit_code\": 0, \"error\": null}", "duration_ms": 150, "is_error": false, "timestamp": 1795183096737}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_35f66619f3", "input": {"command": "echo step-1"}, "timestamp": 1795183096763}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_35f66619f3", "output": "{\"output\": \"step-1\", \"exit_code\": 0, \"error\": null}", "duration_ms": 36, "is_error": false, "timestamp": 1795183096800}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_2d156debf4", "input": {"command": "echo step-2"}, "timestamp": 1795183096818}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_2d156debf4", "output": "{\"output\": \"step-2\", \"exit_code\": 0, \"error\": null}", "duration_ms": 39, "is_error": false, "timestamp": 1795183096857}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_2fac94e666", "input": {"command": "echo step-3"}, "timestamp": 1795183096877}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_2fac94e666", "output": "{\"output\": \"step-3\", \"exit_code\": 0, \"error\": null}", "duration_ms": 39, "is_error": false, "timestamp": 1795183096916}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_6b96916811", "input": {"command": "echo step-4"}, "timestamp": 1795183096937}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_6b96916811", "output": "{\"output\": \"step-4\", \"exit_code\": 0, \"error\": null}", "duration_ms": 43, "is_error": false, "timestamp": 1795183096981}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_677732d629", "input": {"command": "echo step-5"}, "timestamp": 1795183097001}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_677732d629", "output": "{\"output\": \"step-5\", \"exit_code\": 0, \"error\": null}", "duration_ms": 48, "is_error": false, "timestamp": 1795183097050}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_dd5a0a0b80", "input": {"command": "echo step-6"}, "timestamp": 1795183097073}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_dd5a0a0b80", "output": "{\"output\": \"step-6\", \"exit_code\": 0, \"error\": null}", "duration_ms": 42, "is_error": false, "timestamp": 1795183097116}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_f477bd7560", "input": {"command": "echo step-7"}, "timestamp": 1795183097138}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_f477bd7560", "output": "{\"output\": \"step-7\", \"exit_code\": 0, \"error\": null}", "duration_ms": 45, "is_error": false, "timestamp": 1795183097183}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_3cbddea780", "input": {"command": "echo step-8"}, "timestamp": 1795183097205}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_3cbddea780", "output": "{\"output\": \"step-8\", \"exit_code\": 0, \"error\": null}", "duration_ms": 38, "is_error": false, "timestamp": 1795183097244}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_faf932fedf", "input": {"command": "echo step-9"}, "timestamp": 1795183097266}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_faf932fedf", "output": "{\"output\": \"step-9\", \"exit_code\": 0, \"error\": null}", "duration_ms": 44, "is_error": false, "timestamp": 1795183097310}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_2aefe72baa", "input": {"command": "echo step-10"}, "timestamp": 1795183097331}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_2aefe72baa", "output": "{\"output\": \"step-10\", \"exit_code\": 0, \"error\": null}", "duration_ms": 48, "is_error": false, "timestamp": 1795183097380}
+{"type": "tool_use", "name": "terminal", "tool_call_id": "call_18511b4188", "input": {"command": "echo step-11"}, "timestamp": 1795183097402}
+{"type": "tool_result", "name": "terminal", "tool_call_id": "call_18511b4188", "output": "{\"output\": \"step-11\", \"exit_code\": 0, \"error\": null}", "duration_ms": 37, "is_error": false, "timestamp": 1795183097439}
+{"type": "text", "text": "\n\nAll 12 steps done.", "timestamp": 1795183097454}
+{"type": "result", "session_id": "local-e356cafbc5ed9e6d68e7227eb1757c4f36b0a17ffe985d055662d1e581040062", "exit_code": 0, "text": "All 12 steps done.", "tokens": {"input": 141858, "output": 237, "total": 142095, "cache_read": 0, "cache_write": 0}, "duration_ms": 8510, "timestamp": 1795183097503}
+
+session_id: local-e356cafbc5ed9e6d68e7227eb1757c4f36b0a17ffe985d055662d1e581040062

@@ -1,0 +1,37 @@
+{
+  "estimated_cost_usd": 0.0,
+  "cost_status": "unknown",
+  "cost_source": "provider_models_api",
+  "input_tokens": 80560,
+  "output_tokens": 1224,
+  "cache_read_tokens": 52608,
+  "cache_write_tokens": 0,
+  "reasoning_tokens": 303,
+  "total_tokens": 81784,
+  "api_calls": 7,
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "provider": "openrouter",
+  "session_id": "local-950c9fe6611aef6a626a2037e498fa04a852675bc7b308e906d29aa92938ca73",
+  "completed": true,
+  "partial": false,
+  "interrupted": false,
+  "turn_exit_reason": "text_response(finish_reason=stop)",
+  "failed": false,
+  "service_tier": null,
+  "auxiliary": {
+    "api_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 0,
+    "estimated_cost_usd": 0,
+    "total_tokens": 0,
+    "by_task": {}
+  },
+  "total_including_auxiliary": {
+    "estimated_cost_usd": 0.0,
+    "total_tokens": 81784,
+    "api_calls": 7
+  }
+}

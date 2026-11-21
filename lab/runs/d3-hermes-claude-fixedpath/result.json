@@ -1,0 +1,1 @@
+{"name": "d3-hermes-claude-fixedpath", "outside_refs": 0, "month": "x", "seconds": 307, "api_calls": 9, "input": 219249, "cache_read": 193152, "output": 857, "tool_calls": 8, "skill_view": 1, "skill_manage": 0, "delegated": [], "score": 9, "pass": true, "check": {"score": 9, "of": 9, "pass": true, "tests_edited": false}, "completed": true}

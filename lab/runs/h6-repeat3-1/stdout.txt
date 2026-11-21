@@ -1,0 +1,1 @@
+The April 2026 report is at `out/report_2026-04.md`. The totals follow the team rules, but finance did not accept it: after two intake corrections, the third and final attempt was rejected because finance calls `training` `education`. The intake is now locked for this month, so I could not resubmit. The report file is the exact version from that final attempt.

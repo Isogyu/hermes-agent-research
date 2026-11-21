@@ -1,0 +1,754 @@
+test_binary_reads_and_writes_are_authorized (test_access_policy.AccessPolicyTests.test_binary_reads_and_writes_are_authorized) ... ok
+test_calendar_invitation_requires_attendee_grant (test_access_policy.AccessPolicyTests.test_calendar_invitation_requires_attendee_grant) ... ok
+test_collaboration_create_respects_filename_scope_and_research_is_revocable (test_access_policy.AccessPolicyTests.test_collaboration_create_respects_filename_scope_and_research_is_revocable) ... ok
+test_collaboration_on_single_document_does_not_grant_creation_elsewhere (test_access_policy.AccessPolicyTests.test_collaboration_on_single_document_does_not_grant_creation_elsewhere) ... ok
+test_collaboration_preset_cannot_add_outbound_or_override_custom_restrictions (test_access_policy.AccessPolicyTests.test_collaboration_preset_cannot_add_outbound_or_override_custom_restrictions) ... ok
+test_collaboration_preset_expands_before_confirmation_not_before_approval (test_access_policy.AccessPolicyTests.test_collaboration_preset_expands_before_confirmation_not_before_approval) ... ok
+test_colleague_and_routine_cannot_confirm_or_propose (test_access_policy.AccessPolicyTests.test_colleague_and_routine_cannot_confirm_or_propose) ... ok
+test_confirmation_uses_separate_paragraphs_for_teams (test_access_policy.AccessPolicyTests.test_confirmation_uses_separate_paragraphs_for_teams) ... ok
+test_corrupted_policy_and_different_instance_fail_closed (test_access_policy.AccessPolicyTests.test_corrupted_policy_and_different_instance_fail_closed) ... ok
+test_create_only_grant_cannot_overwrite_existing_file (test_access_policy.AccessPolicyTests.test_create_only_grant_cannot_overwrite_existing_file) ... ok
+test_direct_private_item_and_reserved_state_denied (test_access_policy.AccessPolicyTests.test_direct_private_item_and_reserved_state_denied) ... ok
+test_email_subject_scope_and_reply_destination (test_access_policy.AccessPolicyTests.test_email_subject_scope_and_reply_destination) ... ok
+test_etag_conflict_never_claims_approval (test_access_policy.AccessPolicyTests.test_etag_conflict_never_claims_approval) ... ok
+test_existing_read_edit_does_not_silently_allow_research_or_create (test_access_policy.AccessPolicyTests.test_existing_read_edit_does_not_silently_allow_research_or_create) ... ok
+test_expired_proposal_cannot_approve (test_access_policy.AccessPolicyTests.test_expired_proposal_cannot_approve) ... ok
+test_folder_delete_and_parent_moves_cannot_bypass_scope (test_access_policy.AccessPolicyTests.test_folder_delete_and_parent_moves_cannot_bypass_scope) ... ok
+test_grant_expiry_enforced_at_tool_time (test_access_policy.AccessPolicyTests.test_grant_expiry_enforced_at_tool_time) ... ok
+test_grants_are_filtered_by_actual_caller (test_access_policy.AccessPolicyTests.test_grants_are_filtered_by_actual_caller) ... ok
+test_guests_and_unsupported_resources_cannot_be_proposed (test_access_policy.AccessPolicyTests.test_guests_and_unsupported_resources_cannot_be_proposed) ... ok
+test_integrity_and_agent_binding_are_verified (test_access_policy.AccessPolicyTests.test_integrity_and_agent_binding_are_verified) ... ok
+test_item_confirmation_does_not_claim_future_matches (test_access_policy.AccessPolicyTests.test_item_confirmation_does_not_claim_future_matches) ... ok
+test_no_cancels_without_grant (test_access_policy.AccessPolicyTests.test_no_cancels_without_grant) ... ok
+test_other_conversation_cannot_approve (test_access_policy.AccessPolicyTests.test_other_conversation_cannot_approve) ... ok
+test_pattern_matches_current_metadata (test_access_policy.AccessPolicyTests.test_pattern_matches_current_metadata) ... ok
+test_proposal_does_not_grant_then_exact_owner_yes_persists (test_access_policy.AccessPolicyTests.test_proposal_does_not_grant_then_exact_owner_yes_persists) ... ok
+test_public_research_requires_confirmed_unexpired_person_specific_grant (test_access_policy.AccessPolicyTests.test_public_research_requires_confirmed_unexpired_person_specific_grant) ... ok
+test_read_allowed_but_edit_share_delete_denied (test_access_policy.AccessPolicyTests.test_read_allowed_but_edit_share_delete_denied) ... ok
+test_recursive_folder_checks_ancestors (test_access_policy.AccessPolicyTests.test_recursive_folder_checks_ancestors) ... ok
+test_remote_shortcuts_are_not_exposed_even_with_all_files_grant (test_access_policy.AccessPolicyTests.test_remote_shortcuts_are_not_exposed_even_with_all_files_grant) ... ok
+test_replacement_explains_current_and_proposed_access_without_internal_json (test_access_policy.AccessPolicyTests.test_replacement_explains_current_and_proposed_access_without_internal_json) ... ok
+test_replacement_narrows_existing_grant_without_leaving_old_write_access (test_access_policy.AccessPolicyTests.test_replacement_narrows_existing_grant_without_leaving_old_write_access) ... ok
+test_research_flag_is_explicit_in_confirmation_and_strictly_boolean (test_access_policy.AccessPolicyTests.test_research_flag_is_explicit_in_confirmation_and_strictly_boolean) ... ok
+test_revision_text_cancels_previous_proposal_and_goes_to_agent (test_access_policy.AccessPolicyTests.test_revision_text_cancels_previous_proposal_and_goes_to_agent) ... ok
+test_revoke_applies_only_after_confirmation (test_access_policy.AccessPolicyTests.test_revoke_applies_only_after_confirmation) ... ok
+test_scope_rendering_distinguishes_exact_suffix_and_complex_patterns (test_access_policy.AccessPolicyTests.test_scope_rendering_distinguishes_exact_suffix_and_complex_patterns) ... ok
+test_search_filters_before_returning_data_or_download_urls (test_access_policy.AccessPolicyTests.test_search_filters_before_returning_data_or_download_urls) ... ok
+test_sharing_requires_explicit_recipient (test_access_policy.AccessPolicyTests.test_sharing_requires_explicit_recipient) ... ok
+test_specific_folder_blocks_other_folders (test_access_policy.AccessPolicyTests.test_specific_folder_blocks_other_folders) ... ok
+test_stale_replacement_does_not_overwrite_newer_grant (test_access_policy.AccessPolicyTests.test_stale_replacement_does_not_overwrite_newer_grant) ... ok
+test_timezone_aware_email_date_filter (test_access_policy.AccessPolicyTests.test_timezone_aware_email_date_filter) ... ok
+test_unsupported_routes_and_expansions_fail_closed (test_access_policy.AccessPolicyTests.test_unsupported_routes_and_expansions_fail_closed) ... ok
+test_untrusted_labels_cannot_add_lines_or_markdown_to_confirmation (test_access_policy.AccessPolicyTests.test_untrusted_labels_cannot_add_lines_or_markdown_to_confirmation) ... ok
+test_propose_then_yes_is_handled_without_calling_hermes (test_access_policy.GatewayApprovalTests.test_propose_then_yes_is_handled_without_calling_hermes) ... ok
+test_service_failure_on_yes_never_reaches_model (test_access_policy.GatewayApprovalTests.test_service_failure_on_yes_never_reaches_model) ... ok
+test_sse_confirmation_is_server_rendered_and_precedes_done (test_access_policy.GatewayApprovalTests.test_sse_confirmation_is_server_rendered_and_precedes_done) ... ok
+test_structured_model_error_is_visible_without_exposing_error_body (test_access_policy.GatewayApprovalTests.test_structured_model_error_is_visible_without_exposing_error_body) ... ok
+test_tool_endpoint_cannot_approve (test_access_policy.GatewayApprovalTests.test_tool_endpoint_cannot_approve) ... ok
+test_access_tool_descriptions_distinguish_ambiguous_sharing (test_access_policy.SidecarPermissionTests.test_access_tool_descriptions_distinguish_ambiguous_sharing) ... ok
+test_colleague_cannot_read_memory_or_propose_permissions (test_access_policy.SidecarPermissionTests.test_colleague_cannot_read_memory_or_propose_permissions) ... [tool] recall start (args=[])
+[tool] recall FAILED in 0ms (81 chars)
+[tool] propose_access_change start (args=[])
+[tool] propose_access_change FAILED in 0ms (62 chars)
+ok
+test_colleague_graph_and_binary_paths_always_use_broker (test_access_policy.SidecarPermissionTests.test_colleague_graph_and_binary_paths_always_use_broker) ... ok
+test_generic_graph_cannot_create_indirect_policy_references (test_access_policy.SidecarPermissionTests.test_generic_graph_cannot_create_indirect_policy_references) ... [tool] graph_write start (args=[])
+[tool] graph_write FAILED in 0ms (84 chars)
+[tool] graph_write start (args=[])
+[tool] graph_write FAILED in 0ms (84 chars)
+[tool] graph_write start (args=[])
+[tool] graph_write FAILED in 0ms (84 chars)
+ok
+test_owner_cannot_write_policy_via_generic_tools (test_access_policy.SidecarPermissionTests.test_owner_cannot_write_policy_via_generic_tools) ... ok
+test_owner_folder_access_proposal_does_not_share_in_onedrive (test_access_policy.SidecarPermissionTests.test_owner_folder_access_proposal_does_not_share_in_onedrive) ... [tool] propose_access_change start (args=['actions', 'recipient', 'resource', 'scope'])
+[tool] propose_access_change ok in 0ms (73 chars)
+ok
+test_public_fetch_checks_broker_before_network_and_retains_url_safety (test_access_policy.SidecarPermissionTests.test_public_fetch_checks_broker_before_network_and_retains_url_safety) ... [tool] fetch_url start (args=[])
+[tool] fetch_url FAILED in 0ms (48 chars)
+ok
+test_existing_agent_reuses_identity_without_blueprint_write (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_existing_agent_reuses_identity_without_blueprint_write) ... skipped 'PowerShell required for deployment-script behavior tests'
+test_invalid_identity_and_lookup_failures_never_create_blueprint (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_invalid_identity_and_lookup_failures_never_create_blueprint) ... skipped 'PowerShell required for deployment-script behavior tests'
+test_only_404_creates_blueprint (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_only_404_creates_blueprint) ... skipped 'PowerShell required for deployment-script behavior tests'
+test_preserves_existing_tenant_scopes_and_adds_missing_hermes_scopes (test_blueprint_permission_merge.BlueprintPermissionMergeTests.test_preserves_existing_tenant_scopes_and_adds_missing_hermes_scopes) ... ok
+test_reconciliation_script_uses_additive_patch_and_hides_error_body (test_blueprint_permission_merge.BlueprintPermissionMergeTests.test_reconciliation_script_uses_additive_patch_and_hides_error_body) ... ok
+test_rejects_malformed_existing_scope_data (test_blueprint_permission_merge.BlueprintPermissionMergeTests.test_rejects_malformed_existing_scope_data) ... ok
+test_build_script_sends_staged_context_and_cleans_it (test_build_context.BuildContextTests.test_build_script_sends_staged_context_and_cleans_it) ... FAIL
+test_real_manifest_stages_exact_reviewed_files (test_build_context.BuildContextTests.test_real_manifest_stages_exact_reviewed_files) ... ok
+test_symlink_inputs_and_parent_directories_fail_closed (test_build_context.BuildContextTests.test_symlink_inputs_and_parent_directories_fail_closed) ... ok
+test_unlisted_secrets_never_enter_staged_context (test_build_context.BuildContextTests.test_unlisted_secrets_never_enter_staged_context) ... ok
+test_non_production_runtime_mode_fails (test_deployment_validator.DeploymentValidatorTests.test_non_production_runtime_mode_fails) ... ok
+test_valid_deployment_passes_without_printing_values_or_mutating (test_deployment_validator.DeploymentValidatorTests.test_valid_deployment_passes_without_printing_values_or_mutating) ... ok
+test_activity_and_routine_paths_forward_safe_correlation (test_edge_privacy_contracts.EdgePrivacyContractTests.test_activity_and_routine_paths_forward_safe_correlation) ... ok
+test_activity_payload_and_runtime_session_are_not_returned_to_callers (test_edge_privacy_contracts.EdgePrivacyContractTests.test_activity_payload_and_runtime_session_are_not_returned_to_callers) ... ok
+test_agent_token_errors_do_not_embed_entra_response_bodies (test_edge_privacy_contracts.EdgePrivacyContractTests.test_agent_token_errors_do_not_embed_entra_response_bodies) ... ok
+test_anonymous_bot_channels_are_not_treated_as_tenant_colleagues (test_edge_privacy_contracts.EdgePrivacyContractTests.test_anonymous_bot_channels_are_not_treated_as_tenant_colleagues) ... ok
+test_attachment_and_progress_failures_do_not_log_exception_messages (test_edge_privacy_contracts.EdgePrivacyContractTests.test_attachment_and_progress_failures_do_not_log_exception_messages) ... ok
+test_compatibility_mode_logs_no_agent_ids_or_service_response_bodies (test_edge_privacy_contracts.EdgePrivacyContractTests.test_compatibility_mode_logs_no_agent_ids_or_service_response_bodies) ... ok
+test_edge_http_responses_and_routine_requests_are_disposed (test_edge_privacy_contracts.EdgePrivacyContractTests.test_edge_http_responses_and_routine_requests_are_disposed) ... ok
+test_foundry_telemetry_does_not_export_genai_content_or_connection_strings (test_edge_privacy_contracts.EdgePrivacyContractTests.test_foundry_telemetry_does_not_export_genai_content_or_connection_strings) ... ok
+test_gateway_never_logs_reply_preview_or_returns_log_tail (test_edge_privacy_contracts.EdgePrivacyContractTests.test_gateway_never_logs_reply_preview_or_returns_log_tail) ... ok
+test_identity_and_routine_logs_use_no_raw_directory_identifiers (test_edge_privacy_contracts.EdgePrivacyContractTests.test_identity_and_routine_logs_use_no_raw_directory_identifiers) ... ok
+test_production_edge_does_not_return_detailed_framework_errors (test_edge_privacy_contracts.EdgePrivacyContractTests.test_production_edge_does_not_return_detailed_framework_errors) ... ok
+test_structural_turn_logs_exclude_person_and_conversation_fields (test_edge_privacy_contracts.EdgePrivacyContractTests.test_structural_turn_logs_exclude_person_and_conversation_fields) ... ok
+test_tool_telemetry_does_not_echo_results_or_exception_messages (test_edge_privacy_contracts.EdgePrivacyContractTests.test_tool_telemetry_does_not_echo_results_or_exception_messages) ... ok
+test_accepts_only_exact_foundry_agent_endpoint (test_foundry_agent_lookup.FoundryAgentLookupTests.test_accepts_only_exact_foundry_agent_endpoint) ... ok
+test_callers_branch_only_on_explicit_not_found (test_foundry_agent_lookup.FoundryAgentLookupTests.test_callers_branch_only_on_explicit_not_found) ... ok
+test_invalid_or_oversized_response_fails_closed (test_foundry_agent_lookup.FoundryAgentLookupTests.test_invalid_or_oversized_response_fails_closed) ... ok
+test_only_404_is_absent (test_foundry_agent_lookup.FoundryAgentLookupTests.test_only_404_is_absent) ... ok
+test_private_record_is_mode_600 (test_foundry_agent_lookup.FoundryAgentLookupTests.test_private_record_is_mode_600) ... ok
+test_standalone_creator_stops_before_any_azure_call_on_lookup_failure (test_foundry_agent_lookup.FoundryAgentLookupTests.test_standalone_creator_stops_before_any_azure_call_on_lookup_failure) ... ok
+test_valid_json_200_is_found (test_foundry_agent_lookup.FoundryAgentLookupTests.test_valid_json_200_is_found) ... ok
+test_absent_agent_still_builds_creates_and_publishes (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_absent_agent_still_builds_creates_and_publishes) ... ok
+test_different_existing_identity_skips_cleanly_before_any_post_hook_writes (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_different_existing_identity_skips_cleanly_before_any_post_hook_writes) ... ok
+test_force_failed_update_does_not_route_or_publish (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_force_failed_update_does_not_route_or_publish) ... ok
+test_force_mismatched_identity_fails_without_build_or_route (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_force_mismatched_identity_fails_without_build_or_route) ... ok
+test_force_rebuilds_updates_and_routes_before_publication (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_force_rebuilds_updates_and_routes_before_publication) ... ok
+test_identity_comparison_is_case_insensitive (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_identity_comparison_is_case_insensitive) ... ok
+test_lookup_failure_remains_an_error_without_writes (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_lookup_failure_remains_an_error_without_writes) ... ok
+test_same_identity_resumes_publication_without_rebuilding (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_same_identity_resumes_publication_without_rebuilding) ... ok
+test_unknown_or_malformed_identity_is_not_treated_as_existing_success (test_foundry_agent_lookup.PostProvisionExistingAgentTests.test_unknown_or_malformed_identity_is_not_treated_as_existing_success) ... ok
+test_code_progress_never_echoes_source (test_foundry_project_inference.FoundryProjectInferenceTests.test_code_progress_never_echoes_source) ... ok
+test_fired_routine_is_wrapped_as_immediate_execution (test_foundry_project_inference.FoundryProjectInferenceTests.test_fired_routine_is_wrapped_as_immediate_execution) ... ok
+test_foundry_reasoning_id_survives_history_and_preflight (test_foundry_project_inference.FoundryProjectInferenceTests.test_foundry_reasoning_id_survives_history_and_preflight) ... ok
+test_portable_account_endpoint_retains_cognitive_services_audience (test_foundry_project_inference.FoundryProjectInferenceTests.test_portable_account_endpoint_retains_cognitive_services_audience) ... ok
+test_primary_and_fallback_are_both_entra_authenticated (test_foundry_project_inference.FoundryProjectInferenceTests.test_primary_and_fallback_are_both_entra_authenticated) ... ok
+test_project_model_endpoint_uses_ai_azure_token_audience (test_foundry_project_inference.FoundryProjectInferenceTests.test_project_model_endpoint_uses_ai_azure_token_audience) ... ok
+test_release_defaults_to_project_scoped_model_endpoint (test_foundry_project_inference.FoundryProjectInferenceTests.test_release_defaults_to_project_scoped_model_endpoint) ... ok
+test_replayed_assistant_text_gets_required_annotations (test_foundry_project_inference.FoundryProjectInferenceTests.test_replayed_assistant_text_gets_required_annotations) ... ok
+test_routine_diagnostics_hash_identity_claims_and_never_log_bearer_token (test_foundry_project_inference.FoundryProjectInferenceTests.test_routine_diagnostics_hash_identity_claims_and_never_log_bearer_token) ... ok
+test_routine_requests_forward_foundry_call_authority (test_foundry_project_inference.FoundryProjectInferenceTests.test_routine_requests_forward_foundry_call_authority) ... ok
+test_routine_requests_include_required_foundry_api_version (test_foundry_project_inference.FoundryProjectInferenceTests.test_routine_requests_include_required_foundry_api_version) ... ok
+test_chat_turns_are_serialized_while_other_posts_are_not (test_gateway_privacy.GatewayPrivacyTests.test_chat_turns_are_serialized_while_other_posts_are_not) ... ok
+test_deep_health_returns_503_until_all_dependencies_are_reachable (test_gateway_privacy.GatewayPrivacyTests.test_deep_health_returns_503_until_all_dependencies_are_reachable) ... ok
+test_dependency_health_reports_only_component_booleans (test_gateway_privacy.GatewayPrivacyTests.test_dependency_health_reports_only_component_booleans) ... ok
+test_edge_log_accepts_only_prehashed_session_tag (test_gateway_privacy.GatewayPrivacyTests.test_edge_log_accepts_only_prehashed_session_tag) ... ok
+test_group_chat_portal_command_never_starts_device_authorization (test_gateway_privacy.GatewayPrivacyTests.test_group_chat_portal_command_never_starts_device_authorization) ... [edge] agent.token.cleared | current turn supplied none | correlation=8cdbd17240f5aa21
+ok
+test_log_lines_receive_current_turn_correlation_without_identity (test_gateway_privacy.GatewayPrivacyTests.test_log_lines_receive_current_turn_correlation_without_identity) ... ok
+test_log_ships_only_the_redacted_message (test_gateway_privacy.GatewayPrivacyTests.test_log_ships_only_the_redacted_message) ... ok
+test_portal_onboarding_is_procedural_and_offers_only_enabled_fallback (test_gateway_privacy.GatewayPrivacyTests.test_portal_onboarding_is_procedural_and_offers_only_enabled_fallback) ... [edge] agent.token.refreshed | correlation=9ad1557628b00ed7
+[edge] agent.token.refreshed | correlation=b1cab65b44228b55
+[edge] agent.token.refreshed | correlation=4df75e10a2eb437d
+ok
+test_portal_token_endpoint_requires_auth_and_clears_between_turns (test_gateway_privacy.GatewayPrivacyTests.test_portal_token_endpoint_requires_auth_and_clears_between_turns) ... ok
+test_redactor_removes_credentials_tenant_and_user_identifiers (test_gateway_privacy.GatewayPrivacyTests.test_redactor_removes_credentials_tenant_and_user_identifiers) ... ok
+test_shallow_root_health_remains_available_during_cold_start (test_gateway_privacy.GatewayPrivacyTests.test_shallow_root_health_remains_available_during_cold_start) ... ok
+test_state_sync_finishes_before_turn_authority_is_erased (test_gateway_privacy.GatewayPrivacyTests.test_state_sync_finishes_before_turn_authority_is_erased) ... ok
+test_turn_authority_is_erased_after_chat_finishes (test_gateway_privacy.GatewayPrivacyTests.test_turn_authority_is_erased_after_chat_finishes) ... ok
+test_401_is_system_fault_and_not_retried (test_graph_contracts.GraphContractTests.test_401_is_system_fault_and_not_retried) ... ok
+test_403_explains_both_permission_layers (test_graph_contracts.GraphContractTests.test_403_explains_both_permission_layers) ... ok
+test_absolute_graph_escape_hatch_cannot_exfiltrate_bearer_token (test_graph_contracts.GraphContractTests.test_absolute_graph_escape_hatch_cannot_exfiltrate_bearer_token) ... [tool] graph_query start (args=[])
+[tool] graph_query FAILED in 0ms (114 chars)
+ok
+test_absolute_graph_url_accepts_only_https_v1_endpoint (test_graph_contracts.GraphContractTests.test_absolute_graph_url_accepts_only_https_v1_endpoint) ... ok
+test_conflict_and_malformed_error_bodies_are_returned_without_crashing (test_graph_contracts.GraphContractTests.test_conflict_and_malformed_error_bodies_are_returned_without_crashing) ... ok
+test_drive_404_has_truthful_terminal_state (test_graph_contracts.GraphContractTests.test_drive_404_has_truthful_terminal_state) ... ok
+test_etag_conflict_is_never_retried (test_graph_contracts.GraphContractTests.test_etag_conflict_is_never_retried) ... ok
+test_get_honors_numeric_retry_after_and_recovers (test_graph_contracts.GraphContractTests.test_get_honors_numeric_retry_after_and_recovers) ... ok
+test_get_retries_connection_timeout_with_bounded_backoff (test_graph_contracts.GraphContractTests.test_get_retries_connection_timeout_with_bounded_backoff) ... ok
+test_locked_docx_upload_retries_four_times_then_reports_unchanged (test_graph_contracts.GraphContractTests.test_locked_docx_upload_retries_four_times_then_reports_unchanged) ... ok
+test_mutating_post_is_not_replayed_after_transient_response (test_graph_contracts.GraphContractTests.test_mutating_post_is_not_replayed_after_transient_response) ... ok
+test_retry_after_is_capped_to_protect_turn_deadline (test_graph_contracts.GraphContractTests.test_retry_after_is_capped_to_protect_turn_deadline) ... ok
+test_sidecar_never_reuses_token_after_turn_authority_disappears (test_graph_contracts.GraphContractTests.test_sidecar_never_reuses_token_after_turn_authority_disappears) ... ok
+test_deployment_propagates_only_references_not_credentials (test_inference_configuration.InferenceConfigurationTests.test_deployment_propagates_only_references_not_credentials) ... ok
+test_invalid_provider_or_endpoint_fails_closed (test_inference_configuration.InferenceConfigurationTests.test_invalid_provider_or_endpoint_fails_closed) ... ok
+test_missing_authenticated_turn_never_uses_shared_secret (test_inference_configuration.InferenceConfigurationTests.test_missing_authenticated_turn_never_uses_shared_secret) ... ok
+test_multi_provider_never_implicitly_crosses_billing_accounts (test_inference_configuration.InferenceConfigurationTests.test_multi_provider_never_implicitly_crosses_billing_accounts) ... ok
+test_new_install_defaults_to_nous_and_upgrades_preserve_foundry (test_inference_configuration.InferenceConfigurationTests.test_new_install_defaults_to_nous_and_upgrades_preserve_foundry) ... ok
+test_portal_only_config_needs_no_foundry_model_or_token (test_inference_configuration.InferenceConfigurationTests.test_portal_only_config_needs_no_foundry_model_or_token) ... ok
+test_resolver_reads_current_caller_without_cross_turn_cache (test_inference_configuration.InferenceConfigurationTests.test_resolver_reads_current_caller_without_cross_turn_cache) ... ok
+test_upgrade_preserves_options_unless_explicitly_changed (test_inference_configuration.InferenceConfigurationTests.test_upgrade_preserves_options_unless_explicitly_changed) ... ok
+test_catalog_selects_default_supported_version_in_selected_subscription (test_inference_egress.CatalogTests.test_catalog_selects_default_supported_version_in_selected_subscription) ... ok
+test_empty_catalog_fails_with_actionable_error (test_inference_egress.CatalogTests.test_empty_catalog_fails_with_actionable_error) ... ok
+test_configures_managed_firewall_and_attaches_verified_policy (test_inference_egress.EgressTests.test_configures_managed_firewall_and_attaches_verified_policy) ... ok
+test_custom_foundry_model_never_inherits_unrelated_default_version (test_inference_egress.EgressTests.test_custom_foundry_model_never_inherits_unrelated_default_version) ... ok
+test_destinations_exact_and_provider_specific (test_inference_egress.EgressTests.test_destinations_exact_and_provider_specific) ... ok
+test_does_not_introduce_new_deny_for_unrestricted_deployment (test_inference_egress.EgressTests.test_does_not_introduce_new_deny_for_unrestricted_deployment) ... ok
+test_foundry_default_matches_verified_azure_sol_catalog (test_inference_egress.EgressTests.test_foundry_default_matches_verified_azure_sol_catalog) ... ok
+test_nous_only_has_no_foundry_model_question (test_inference_egress.EgressTests.test_nous_only_has_no_foundry_model_question) ... ok
+test_policy_attachment_must_survive_api_readback (test_inference_egress.EgressTests.test_policy_attachment_must_survive_api_readback) ... ok
+test_preserves_deny_and_content_policy_and_precedes_catchall (test_inference_egress.EgressTests.test_preserves_deny_and_content_policy_and_precedes_catchall) ... ok
+test_readback_accepts_inherited_filters_but_rejects_changed_explicit_filters (test_inference_egress.EgressTests.test_readback_accepts_inherited_filters_but_rejects_changed_explicit_filters) ... ok
+test_setup_can_choose_foundry_without_portal_credentials (test_inference_egress.EgressTests.test_setup_can_choose_foundry_without_portal_credentials) ... ok
+test_setup_collects_choices_without_api_key_prompt (test_inference_egress.EgressTests.test_setup_collects_choices_without_api_key_prompt) ... ok
+test_setup_enter_uses_default_nous_model (test_inference_egress.EgressTests.test_setup_enter_uses_default_nous_model) ... ok
+test_setup_uses_selected_foundry_model_and_version (test_inference_egress.EgressTests.test_setup_uses_selected_foundry_model_and_version) ... ok
+test_switch_saved_foundry_to_nous_repairs_allowlist_and_prompts (test_inference_egress.EgressTests.test_switch_saved_foundry_to_nous_repairs_allowlist_and_prompts) ... ok
+test_every_model_prompt_has_three_examples_and_normalizes_input (test_inference_egress.ModelInputTests.test_every_model_prompt_has_three_examples_and_normalizes_input) ... ok
+test_foundry_accepts_bare_and_prefixed_but_rejects_other_providers (test_inference_egress.ModelInputTests.test_foundry_accepts_bare_and_prefixed_but_rejects_other_providers) ... ok
+test_portal_adds_only_unambiguous_prefixes_and_normalizes_lists (test_inference_egress.ModelInputTests.test_portal_adds_only_unambiguous_prefixes_and_normalizes_lists) ... ok
+test_missing_provider_fails_without_registering_it (test_installer_preflight.InstallerPreflightTests.test_missing_provider_fails_without_registering_it) ... ok
+test_success_is_read_only_and_checks_both_token_audiences (test_installer_preflight.InstallerPreflightTests.test_success_is_read_only_and_checks_both_token_audiences) ... ok
+test_command_choices_are_checked_against_inventory (test_model_selection.ModelSelectionTests.test_command_choices_are_checked_against_inventory) ... ok
+test_discovery_uses_documented_project_api_and_audience (test_model_selection.ModelSelectionTests.test_discovery_uses_documented_project_api_and_audience) ... ok
+test_empty_admin_inventory_fails_closed (test_model_selection.ModelSelectionTests.test_empty_admin_inventory_fails_closed) ... ok
+test_only_chat_model_deployments_are_selectable (test_model_selection.ModelSelectionTests.test_only_chat_model_deployments_are_selectable) ... ok
+test_release_captures_inventory_and_priority (test_model_selection.ModelSelectionTests.test_release_captures_inventory_and_priority) ... ok
+test_teams_command_is_handled_before_hermes_turn (test_model_selection.ModelSelectionTests.test_teams_command_is_handled_before_hermes_turn) ... ok
+test_turn_and_routine_send_explicit_provider_and_model (test_model_selection.ModelSelectionTests.test_turn_and_routine_send_explicit_provider_and_model) ... ok
+test_real_script_waits_and_revalidates_without_second_post (test_new_version_resume.NewVersionResumeTests.test_real_script_waits_and_revalidates_without_second_post) ... FAIL
+test_action_policies_flow_to_initial_and_upgrade_versions (test_onedrive_graph.GraphOneDriveTests.test_action_policies_flow_to_initial_and_upgrade_versions) ... ok
+test_create_file_cannot_overwrite_reserved_owner_memory (test_onedrive_graph.GraphOneDriveTests.test_create_file_cannot_overwrite_reserved_owner_memory) ... Configured inference egress destinations: inference-api.nousresearch.com, portal.nousresearch.com
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID.
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID. Separate additional IDs with commas; leave blank for none.
+Portal model: openai/gpt-6.1-sol
+Each user signs in to their own Nous account in Teams with /portal login. No shared portal credential is needed.
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+Use an OpenAI catalog name; examples: gpt-6.1-sol, gpt-5-mini, gpt-4.1. You can also paste openai/model; setup removes openai/. Availability is checked in your Azure region.
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID.
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID. Separate additional IDs with commas; leave blank for none.
+Portal model: hermes
+Each user signs in to their own Nous account in Teams with /portal login. No shared portal credential is needed.
+Use an OpenAI catalog name; examples: gpt-6.1-sol, gpt-5-mini, gpt-4.1. You can also paste openai/model; setup removes openai/. Availability is checked in your Azure region.
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID.
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID. Separate additional IDs with commas; leave blank for none.
+Portal model: openai/gpt-6.1-sol
+Each user signs in to their own Nous account in Teams with /portal login. No shared portal credential is needed.
+Use an OpenAI catalog name; examples: gpt-6.1-sol, gpt-5-mini, gpt-4.1. You can also paste openai/model; setup removes openai/. Availability is checked in your Azure region.
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+Use an OpenAI catalog name; examples: gpt-6.1-sol, gpt-5-mini, gpt-4.1. You can also paste openai/model; setup removes openai/. Availability is checked in your Azure region.
+Azure model: custom-model (version 2026-10-01, eastus2).
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID.
+Use provider/model; examples: openai/gpt-6.1-sol, openai/gpt-5-mini, openai/gpt-4.1. Bare GPT and o-series names automatically receive openai/. Other IDs are preserved; use the exact portal ID. Separate additional IDs with commas; leave blank for none.
+Portal model: openai/gpt-6.1-sol
+Each user signs in to their own Nous account in Teams with /portal login. No shared portal credential is needed.
+Use an OpenAI catalog name; examples: gpt-6.1-sol, gpt-5-mini, gpt-4.1. You can also paste openai/model; setup removes openai/. Availability is checked in your Azure region.
+Azure model: gpt-6.1-sol (version 2026-09-29, eastus2).
+[tool] create_file start (args=[])
+[tool] create_file FAILED in 0ms (164 chars)
+ok
+test_create_file_still_refuses_fake_binary_documents (test_onedrive_graph.GraphOneDriveTests.test_create_file_still_refuses_fake_binary_documents) ... [tool] create_file start (args=[])
+[tool] create_file FAILED in 0ms (261 chars)
+ok
+test_create_file_uses_graph_put_and_supports_nested_paths (test_onedrive_graph.GraphOneDriveTests.test_create_file_uses_graph_put_and_supports_nested_paths) ... [tool] create_file start (args=[])
+[tool] create_file ok in 0ms (15 chars)
+ok
+test_create_routine_documents_foundry_only_scheduling_and_fresh_obo (test_onedrive_graph.GraphOneDriveTests.test_create_routine_documents_foundry_only_scheduling_and_fresh_obo) ... ok
+test_create_routine_requires_an_explicit_timezone (test_onedrive_graph.GraphOneDriveTests.test_create_routine_requires_an_explicit_timezone) ... ok
+test_create_routine_returns_complete_task_to_edge_without_identity_fields (test_onedrive_graph.GraphOneDriveTests.test_create_routine_returns_complete_task_to_edge_without_identity_fields) ... [tool] create_routine start (args=[])
+[tool] create_routine ok in 0ms (7 chars)
+ok
+test_default_outbound_policy_preserves_internal_colleague_actions (test_onedrive_graph.GraphOneDriveTests.test_default_outbound_policy_preserves_internal_colleague_actions) ... [tool] send_email start (args=[])
+[tool] send_email ok in 0ms (5 chars)
+ok
+test_docx_replacement_handles_text_split_across_word_runs (test_onedrive_graph.GraphOneDriveTests.test_docx_replacement_handles_text_split_across_word_runs) ... ok
+test_drive_404_does_not_claim_provisioning_or_suggest_native_fallback (test_onedrive_graph.GraphOneDriveTests.test_drive_404_does_not_claim_provisioning_or_suggest_native_fallback) ... ok
+test_edit_docx_does_not_upload_when_find_text_is_missing (test_onedrive_graph.GraphOneDriveTests.test_edit_docx_does_not_upload_when_find_text_is_missing) ... [tool] edit_docx start (args=['find_text', 'item_id', 'replace_text'])
+[tool] edit_docx FAILED in 7ms (110 chars)
+ok
+test_edit_docx_updates_same_item_with_etag_guard (test_onedrive_graph.GraphOneDriveTests.test_edit_docx_updates_same_item_with_etag_guard) ... [tool] edit_docx start (args=['append_content', 'item_id'])
+[tool] edit_docx ok in 14ms (144 chars)
+ok
+test_event_attendees_normalize_display_name_mailboxes (test_onedrive_graph.GraphOneDriveTests.test_event_attendees_normalize_display_name_mailboxes) ... ok
+test_invalid_write_policy_fails_closed_before_token_or_network (test_onedrive_graph.GraphOneDriveTests.test_invalid_write_policy_fails_closed_before_token_or_network) ... ok
+test_list_files_uses_graph_and_clamps_page_size (test_onedrive_graph.GraphOneDriveTests.test_list_files_uses_graph_and_clamps_page_size) ... [tool] list_files start (args=['top'])
+[tool] list_files ok in 0ms (12 chars)
+ok
+test_mailbox_parser_handles_quoted_commas_and_multiple_recipients (test_onedrive_graph.GraphOneDriveTests.test_mailbox_parser_handles_quoted_commas_and_multiple_recipients) ... ok
+test_outsider_binary_upload_is_blocked_before_token_or_network (test_onedrive_graph.GraphOneDriveTests.test_outsider_binary_upload_is_blocked_before_token_or_network) ... ok
+test_outsider_graph_mutations_are_blocked_before_token_or_network (test_onedrive_graph.GraphOneDriveTests.test_outsider_graph_mutations_are_blocked_before_token_or_network) ... ok
+test_outsider_tool_results_never_claim_mutation_success (test_onedrive_graph.GraphOneDriveTests.test_outsider_tool_results_never_claim_mutation_success) ... [tool] send_email start (args=[])
+[tool] send_email FAILED in 0ms (150 chars)
+[tool] create_event start (args=[])
+[tool] create_event FAILED in 0ms (253 chars)
+[tool] share_file start (args=[])
+[tool] share_file FAILED in 0ms (217 chars)
+ok
+test_owner_only_outbound_policy_blocks_colleague_before_graph (test_onedrive_graph.GraphOneDriveTests.test_owner_only_outbound_policy_blocks_colleague_before_graph) ... [tool] send_email start (args=[])
+[tool] send_email FAILED in 0ms (141 chars)
+ok
+test_read_file_by_item_id_uses_graph_content_endpoint (test_onedrive_graph.GraphOneDriveTests.test_read_file_by_item_id_uses_graph_content_endpoint) ... [tool] read_file start (args=['item_id'])
+[tool] read_file ok in 0ms (15 chars)
+ok
+test_read_file_supports_nested_and_reserved_path_characters (test_onedrive_graph.GraphOneDriveTests.test_read_file_supports_nested_and_reserved_path_characters) ... [tool] read_file start (args=['path'])
+[tool] read_file ok in 0ms (6 chars)
+ok
+test_recall_empty_memory_does_not_infer_permission (test_onedrive_graph.GraphOneDriveTests.test_recall_empty_memory_does_not_infer_permission) ... [tool] recall start (args=[])
+[tool] recall ok in 0ms (113 chars)
+ok
+test_recall_explicitly_does_not_grant_access (test_onedrive_graph.GraphOneDriveTests.test_recall_explicitly_does_not_grant_access) ... [tool] recall start (args=[])
+[tool] recall ok in 0ms (152 chars)
+ok
+test_remember_hard_refuses_non_owner_without_touching_graph (test_onedrive_graph.GraphOneDriveTests.test_remember_hard_refuses_non_owner_without_touching_graph) ... [tool] remember start (args=[])
+[tool] remember FAILED in 0ms (146 chars)
+ok
+test_remember_initialises_agent_drive_file_and_appends_owner_entry (test_onedrive_graph.GraphOneDriveTests.test_remember_initialises_agent_drive_file_and_appends_owner_entry) ... [tool] remember start (args=[])
+[tool] remember ok in 0ms (155 chars)
+ok
+test_remember_never_overwrites_when_existing_memory_read_fails (test_onedrive_graph.GraphOneDriveTests.test_remember_never_overwrites_when_existing_memory_read_fails) ... [tool] remember start (args=[])
+[tool] remember FAILED in 0ms (130 chars)
+ok
+test_remove_routine_uses_name_only_and_never_accepts_identity_ids (test_onedrive_graph.GraphOneDriveTests.test_remove_routine_uses_name_only_and_never_accepts_identity_ids) ... [tool] remove_routine start (args=[])
+[tool] remove_routine ok in 0ms (7 chars)
+ok
+test_resolve_person_does_not_fallback_to_contacts_after_graph_error (test_onedrive_graph.GraphOneDriveTests.test_resolve_person_does_not_fallback_to_contacts_after_graph_error) ... [tool] resolve_person start (args=[])
+[tool] resolve_person FAILED in 0ms (149 chars)
+ok
+test_resolve_person_rejects_empty_query_without_calling_graph (test_onedrive_graph.GraphOneDriveTests.test_resolve_person_rejects_empty_query_without_calling_graph) ... [tool] resolve_person start (args=[])
+[tool] resolve_person FAILED in 0ms (59 chars)
+ok
+test_resolve_person_reports_ambiguous_matches_without_guessing (test_onedrive_graph.GraphOneDriveTests.test_resolve_person_reports_ambiguous_matches_without_guessing) ... [tool] resolve_person start (args=[])
+[tool] resolve_person ok in 0ms (197 chars)
+ok
+test_resolve_person_uses_tenant_directory_and_prefers_exact_name (test_onedrive_graph.GraphOneDriveTests.test_resolve_person_uses_tenant_directory_and_prefers_exact_name) ... [tool] resolve_person start (args=[])
+[tool] resolve_person ok in 0ms (121 chars)
+ok
+test_routine_management_fails_closed_without_owner_capability (test_onedrive_graph.GraphOneDriveTests.test_routine_management_fails_closed_without_owner_capability) ... ok
+test_search_files_uses_graph_and_escapes_odata_query (test_onedrive_graph.GraphOneDriveTests.test_search_files_uses_graph_and_escapes_odata_query) ... [tool] search_files start (args=['top'])
+[tool] search_files ok in 0ms (12 chars)
+ok
+test_send_email_normalizes_display_name_mailbox_for_graph (test_onedrive_graph.GraphOneDriveTests.test_send_email_normalizes_display_name_mailbox_for_graph) ... [tool] send_email start (args=[])
+[tool] send_email ok in 0ms (5 chars)
+ok
+test_share_file_remains_graph_backed (test_onedrive_graph.GraphOneDriveTests.test_share_file_remains_graph_backed) ... [tool] share_file start (args=['message', 'role'])
+[tool] share_file ok in 0ms (73 chars)
+ok
+test_state_sync_config_get_returns_gateway_validated_view (test_onedrive_graph.GraphOneDriveTests.test_state_sync_config_get_returns_gateway_validated_view) ... [tool] state_sync_config start (args=[])
+[tool] state_sync_config ok in 0ms (136 chars)
+ok
+test_state_sync_config_is_owner_only_before_gateway_call (test_onedrive_graph.GraphOneDriveTests.test_state_sync_config_is_owner_only_before_gateway_call) ... [tool] state_sync_config start (args=[])
+[tool] state_sync_config ok in 0ms (103 chars)
+ok
+test_state_sync_config_set_preserves_explicit_nondefault_values (test_onedrive_graph.GraphOneDriveTests.test_state_sync_config_set_preserves_explicit_nondefault_values) ... [tool] state_sync_config start (args=['enabled', 'exclude_paths', 'include_paths', 'max_archive_bytes', 'post_turn_settle_seconds'])
+[tool] state_sync_config ok in 0ms (49 chars)
+ok
+test_state_sync_config_set_requires_complete_configuration (test_onedrive_graph.GraphOneDriveTests.test_state_sync_config_set_requires_complete_configuration) ... [tool] state_sync_config start (args=['include_paths'])
+[tool] state_sync_config ok in 0ms (131 chars)
+ok
+test_tool_failure_taxonomy_marks_truthful_terminal_results_failed (test_onedrive_graph.GraphOneDriveTests.test_tool_failure_taxonomy_marks_truthful_terminal_results_failed) ... ok
+test_tool_outcomes_reach_telemetry_without_arguments_or_results (test_onedrive_graph.GraphOneDriveTests.test_tool_outcomes_reach_telemetry_without_arguments_or_results) ... [tool] list_files start (args=['top'])
+[tool] list_files ok in 0ms (12 chars)
+ok
+test_unproven_native_provisioning_tools_are_not_exposed (test_onedrive_graph.GraphOneDriveTests.test_unproven_native_provisioning_tools_are_not_exposed) ... ok
+test_uploaded_file_parser_failure_has_stable_non_path_error (test_onedrive_graph.GraphOneDriveTests.test_uploaded_file_parser_failure_has_stable_non_path_error) ... [tool] read_uploaded_file start (args=[])
+[tool] read_uploaded_file FAILED in 0ms (77 chars)
+ok
+test_uploaded_file_reader_accepts_only_current_turn_directory (test_onedrive_graph.GraphOneDriveTests.test_uploaded_file_reader_accepts_only_current_turn_directory) ... [tool] read_uploaded_file start (args=[])
+[tool] read_uploaded_file ok in 0ms (20 chars)
+[tool] read_uploaded_file start (args=[])
+[tool] read_uploaded_file FAILED in 0ms (67 chars)
+ok
+test_uploaded_file_reader_resolves_symlinks_before_boundary_check (test_onedrive_graph.GraphOneDriveTests.test_uploaded_file_reader_resolves_symlinks_before_boundary_check) ... [tool] read_uploaded_file start (args=[])
+[tool] read_uploaded_file FAILED in 0ms (67 chars)
+ok
+test_browser_login_approval_and_turn_credential (test_portal_auth.PortalAuthTests.test_browser_login_approval_and_turn_credential) ... ok
+test_crash_does_not_replay_refresh_token (test_portal_auth.PortalAuthTests.test_crash_does_not_replay_refresh_token) ... ok
+test_encrypts_tokens_and_isolates_users_agents_and_tenants (test_portal_auth.PortalAuthTests.test_encrypts_tokens_and_isolates_users_agents_and_tenants) ... ok
+test_etag_conflict_cannot_replay_refresh_token (test_portal_auth.PortalAuthTests.test_etag_conflict_cannot_replay_refresh_token) ... ok
+test_logout_disconnects_only_current_user_and_revokes_session (test_portal_auth.PortalAuthTests.test_logout_disconnects_only_current_user_and_revokes_session) ... ok
+test_no_browser_code_for_noninteractive_turn (test_portal_auth.PortalAuthTests.test_no_browser_code_for_noninteractive_turn) ... ok
+test_no_identity_or_encryption_key_fails_closed (test_portal_auth.PortalAuthTests.test_no_identity_or_encryption_key_fails_closed) ... ok
+test_poll_interval_pending_and_slow_down (test_portal_auth.PortalAuthTests.test_poll_interval_pending_and_slow_down) ... ok
+test_refresh_consumes_old_token_before_network_and_persists_rotation (test_portal_auth.PortalAuthTests.test_refresh_consumes_old_token_before_network_and_persists_rotation) ... ok
+test_rejects_cross_environment_token_and_external_login_link (test_portal_auth.PortalAuthTests.test_rejects_cross_environment_token_and_external_login_link) ... ok
+test_atlassian_tokens_are_detected (test_public_tree_audit.PublicTreeAuditTests.test_atlassian_tokens_are_detected) ... ok
+test_documentation_placeholders_and_example_addresses_are_allowed (test_public_tree_audit.PublicTreeAuditTests.test_documentation_placeholders_and_example_addresses_are_allowed) ... ok
+test_private_keys_are_detected (test_public_tree_audit.PublicTreeAuditTests.test_private_keys_are_detected) ... ok
+test_real_tenant_domains_and_emails_are_detected (test_public_tree_audit.PublicTreeAuditTests.test_real_tenant_domains_and_emails_are_detected) ... ok
+test_unreviewed_guid_is_not_allowlisted (test_public_tree_audit.PublicTreeAuditTests.test_unreviewed_guid_is_not_allowlisted) ... ok
+test_only_structured_version_conflict_is_idempotent_success (test_publication_failure_handling.PublicationFailureHandlingTests.test_only_structured_version_conflict_is_idempotent_success) ... ok
+test_server_error_does_not_print_response_body (test_publication_failure_handling.PublicationFailureHandlingTests.test_server_error_does_not_print_response_body) ... ok
+test_successful_publication_is_reported (test_publication_failure_handling.PublicationFailureHandlingTests.test_successful_publication_is_reported) ... ok
+test_transport_failure_reports_uncertain_outcome_without_retry (test_publication_failure_handling.PublicationFailureHandlingTests.test_transport_failure_reports_uncertain_outcome_without_retry) ... ok
+test_default_collision_uses_scoped_workflow (test_rbac_automation_install.RbacAutomationInstallTests.test_default_collision_uses_scoped_workflow) ... ok
+test_existing_workflow_for_other_blueprint_stops_before_deployment (test_rbac_automation_install.RbacAutomationInstallTests.test_existing_workflow_for_other_blueprint_stops_before_deployment) ... ok
+test_fresh_tenant_uses_scoped_workflow (test_rbac_automation_install.RbacAutomationInstallTests.test_fresh_tenant_uses_scoped_workflow) ... ok
+test_matching_workflow_preserves_original_cutoff_on_redeployment (test_rbac_automation_install.RbacAutomationInstallTests.test_matching_workflow_preserves_original_cutoff_on_redeployment) ... ok
+test_unreadable_provider_state_stops_before_registration_or_deployment (test_rbac_automation_install.RbacAutomationInstallTests.test_unreadable_provider_state_stops_before_registration_or_deployment) ... ok
+test_unreadable_workflow_collection_stops_before_deployment (test_rbac_automation_install.RbacAutomationInstallTests.test_unreadable_workflow_collection_stops_before_deployment) ... ok
+test_confirmed_execute_removes_only_delegation_and_workflow (test_rbac_automation_removal.RbacAutomationRemovalTests.test_confirmed_execute_removes_only_delegation_and_workflow) ... ok
+test_default_is_read_only_verified_plan (test_rbac_automation_removal.RbacAutomationRemovalTests.test_default_is_read_only_verified_plan) ... ok
+test_execute_requires_exact_workflow_confirmation (test_rbac_automation_removal.RbacAutomationRemovalTests.test_execute_requires_exact_workflow_confirmation) ... ok
+test_mismatched_blueprint_aborts_before_mutation (test_rbac_automation_removal.RbacAutomationRemovalTests.test_mismatched_blueprint_aborts_before_mutation) ... ok
+test_unreadable_or_absent_workflow_fails_closed (test_rbac_automation_removal.RbacAutomationRemovalTests.test_unreadable_or_absent_workflow_fails_closed) ... ok
+test_invalid_inventory_fails_closed (test_rbac_workflow_selection.SelectionTests.test_invalid_inventory_fails_closed) ... ok
+test_names_are_stable_case_insensitive_and_target_specific (test_rbac_workflow_selection.SelectionTests.test_names_are_stable_case_insensitive_and_target_specific) ... ok
+test_unreadable_legacy_fails_closed (test_rbac_workflow_selection.SelectionTests.test_unreadable_legacy_fails_closed) ... ok
+test_completed_publication_skips_and_unknown_does_not_repost (test_reinstall_resume.PublicationCheckpointTests.test_completed_publication_skips_and_unknown_does_not_repost) ... ok
+test_definitive_rejection_allows_corrected_retry (test_reinstall_resume.PublicationCheckpointTests.test_definitive_rejection_allows_corrected_retry) ... ok
+test_detects_image_protocol_and_environment_changes_without_printing_values (test_reinstall_resume.ReadbackTests.test_detects_image_protocol_and_environment_changes_without_printing_values) ... ok
+test_eventual_egress_readback_repeats_only_reads (test_reinstall_resume.ReadbackTests.test_eventual_egress_readback_repeats_only_reads) ... Waiting for egress configuration readback to converge...
+ok
+test_changed_inputs_do_not_reuse_old_release (test_reinstall_resume.ReinstallTests.test_changed_inputs_do_not_reuse_old_release) ... Reinstalled application version 4 (previous version 3 retained for rollback).
+ok
+test_lost_post_response_is_reconciled_by_image (test_reinstall_resume.ReinstallTests.test_lost_post_response_is_reconciled_by_image) ... Resuming saved reinstall: checking the existing image/version before any new writes.
+Reinstalled application version 4 (previous version 3 retained for rollback).
+ok
+test_readiness_failure_resumes_existing_version_validation (test_reinstall_resume.ReinstallTests.test_readiness_failure_resumes_existing_version_validation) ... Resuming saved reinstall: checking the existing image/version before any new writes.
+Reinstalled application version 4 (previous version 3 retained for rollback).
+ok
+test_route_failure_resume_does_not_rebuild_or_recreate (test_reinstall_resume.ReinstallTests.test_route_failure_resume_does_not_rebuild_or_recreate) ... Resuming saved reinstall: checking the existing image/version before any new writes.
+Reinstalled application version 4 (previous version 3 retained for rollback).
+ok
+test_transitions_and_timeout_are_bounded_without_writes (test_reinstall_resume.WaitTests.test_transitions_and_timeout_are_bounded_without_writes) ... Waiting for Foundry active: creating...
+ok
+test_record_contains_only_portable_release_evidence (test_release_record.ReleaseRecordTests.test_record_contains_only_portable_release_evidence) ... ok
+test_unpinned_or_malformed_inputs_are_rejected (test_release_record.ReleaseRecordTests.test_unpinned_or_malformed_inputs_are_rejected) ... ok
+test_version_creator_passes_only_the_digest_to_the_record (test_release_record.ReleaseRecordTests.test_version_creator_passes_only_the_digest_to_the_record) ... ok
+test_apply_does_not_register_any_provider_if_state_cannot_be_read (test_resource_provider_hook.ResourceProviderHookTests.test_apply_does_not_register_any_provider_if_state_cannot_be_read) ... ok
+test_apply_registers_missing_providers (test_resource_provider_hook.ResourceProviderHookTests.test_apply_registers_missing_providers) ... ok
+test_preview_reports_missing_providers_without_registering (test_resource_provider_hook.ResourceProviderHookTests.test_preview_reports_missing_providers_without_registering) ... ok
+test_browser_context_is_isolated_and_checks_all_requests (test_security_transports.BrowserTests.test_browser_context_is_isolated_and_checks_all_requests) ... ok
+test_browser_tools_fail_closed_before_provisioning (test_security_transports.BrowserTests.test_browser_tools_fail_closed_before_provisioning) ... [tool] browse_url start (args=[])
+[tool] browse_url FAILED in 0ms (165 chars)
+[tool] screenshot_url start (args=[])
+[tool] screenshot_url FAILED in 0ms (165 chars)
+ok
+test_authenticated_graph_transport_does_not_follow_redirect (test_security_transports.TransportTests.test_authenticated_graph_transport_does_not_follow_redirect) ... ok
+test_connect_uses_validated_numeric_address_and_original_tls_name (test_security_transports.TransportTests.test_connect_uses_validated_numeric_address_and_original_tls_name) ... ok
+test_dns_rebinding_between_validation_and_connect_is_rejected (test_security_transports.TransportTests.test_dns_rebinding_between_validation_and_connect_is_rejected) ... ok
+test_download_destination_rejected_before_request (test_security_transports.TransportTests.test_download_destination_rejected_before_request) ... ok
+test_download_request_has_no_authorization (test_security_transports.TransportTests.test_download_request_has_no_authorization) ... ok
+test_generic_and_binary_downloads_use_credential_free_transport (test_security_transports.TransportTests.test_generic_and_binary_downloads_use_credential_free_transport) ... [tool] graph_query start (args=[])
+[tool] graph_query ok in 0ms (6 chars)
+ok
+test_graph_write_and_noncontent_redirects_are_not_followed (test_security_transports.TransportTests.test_graph_write_and_noncontent_redirects_are_not_followed) ... ok
+test_private_or_mixed_dns_answers_never_open_socket (test_security_transports.TransportTests.test_private_or_mixed_dns_answers_never_open_socket) ... ok
+test_public_fetch_does_not_use_environment_proxies (test_security_transports.TransportTests.test_public_fetch_does_not_use_environment_proxies) ... ok
+test_public_redirect_drops_cross_origin_credentials (test_security_transports.TransportTests.test_public_redirect_drops_cross_origin_credentials) ... ok
+test_tls_failure_closes_socket_and_does_not_disable_verification (test_security_transports.TransportTests.test_tls_failure_closes_socket_and_does_not_disable_verification) ... ok
+test_dependency_monitor_uses_edge_deep_health (test_startup_contracts.StartupContractTests.test_dependency_monitor_uses_edge_deep_health) ... ok
+test_direct_dotnet_packages_do_not_use_wildcard_versions (test_startup_contracts.StartupContractTests.test_direct_dotnet_packages_do_not_use_wildcard_versions) ... ok
+test_dotnet_container_inputs_are_digest_pinned_and_multiarch (test_startup_contracts.StartupContractTests.test_dotnet_container_inputs_are_digest_pinned_and_multiarch) ... ok
+test_durable_state_whitelist_is_seeded_without_overwriting_owner_changes (test_startup_contracts.StartupContractTests.test_durable_state_whitelist_is_seeded_without_overwriting_owner_changes) ... ok
+test_pid_one_forwards_termination_to_every_supervised_service (test_startup_contracts.StartupContractTests.test_pid_one_forwards_termination_to_every_supervised_service) ... ok
+test_releases_identify_state_writer_and_keep_legacy_bridge (test_startup_contracts.StartupContractTests.test_releases_identify_state_writer_and_keep_legacy_bridge) ... ok
+test_shutdown_does_not_return_runtime_log_content_to_callers (test_startup_contracts.StartupContractTests.test_shutdown_does_not_return_runtime_log_content_to_callers) ... ok
+test_archive_is_byte_stable_after_restore (test_state_sync.StateSyncArchiveTests.test_archive_is_byte_stable_after_restore) ... ok
+test_archive_name_contains_no_tenant_user_or_agent_identifier (test_state_sync.StateSyncArchiveTests.test_archive_name_contains_no_tenant_user_or_agent_identifier) ... ok
+test_concurrent_changes_preserve_both_versions_and_retry_with_latest_etag (test_state_sync.StateSyncArchiveTests.test_concurrent_changes_preserve_both_versions_and_retry_with_latest_etag) ... ok
+test_config_update_is_atomic_and_bounded (test_state_sync.StateSyncArchiveTests.test_config_update_is_atomic_and_bounded) ... ok
+test_curator_backups_and_symlinks_are_not_archived (test_state_sync.StateSyncArchiveTests.test_curator_backups_and_symlinks_are_not_archived) ... ok
+test_default_whitelist_preserves_memory_skills_and_future_files (test_state_sync.StateSyncArchiveTests.test_default_whitelist_preserves_memory_skills_and_future_files) ... ok
+test_disabling_sync_gets_one_final_checkpoint_and_then_stops (test_state_sync.StateSyncArchiveTests.test_disabling_sync_gets_one_final_checkpoint_and_then_stops) ... ok
+test_failed_refresh_blocks_upload_from_unknown_base (test_state_sync.StateSyncArchiveTests.test_failed_refresh_blocks_upload_from_unknown_base) ... ok
+test_hard_exclusions_override_an_edited_whitelist (test_state_sync.StateSyncArchiveTests.test_hard_exclusions_override_an_edited_whitelist) ... ok
+test_legacy_complete_config_migrates_without_changing_behavior (test_state_sync.StateSyncArchiveTests.test_legacy_complete_config_migrates_without_changing_behavior) ... ok
+test_new_safe_top_level_state_is_discoverable_but_secrets_are_not (test_state_sync.StateSyncArchiveTests.test_new_safe_top_level_state_is_discoverable_but_secrets_are_not) ... ok
+test_older_writer_omission_does_not_delete_new_default_root (test_state_sync.StateSyncArchiveTests.test_older_writer_omission_does_not_delete_new_default_root) ... ok
+test_pointer_conflict_does_not_point_backwards_after_new_legacy_writer (test_state_sync.StateSyncArchiveTests.test_pointer_conflict_does_not_point_backwards_after_new_legacy_writer) ... ok
+test_pointer_conflict_retries_only_when_legacy_head_is_still_ours (test_state_sync.StateSyncArchiveTests.test_pointer_conflict_retries_only_when_legacy_head_is_still_ours) ... ok
+test_pointer_rejects_unknown_state_or_component_schema (test_state_sync.StateSyncArchiveTests.test_pointer_rejects_unknown_state_or_component_schema) ... ok
+test_prepare_refreshes_remote_state_before_each_owner_turn (test_state_sync.StateSyncArchiveTests.test_prepare_refreshes_remote_state_before_each_owner_turn) ... ok
+test_publish_writes_immutable_snapshot_before_pointer (test_state_sync.StateSyncArchiveTests.test_publish_writes_immutable_snapshot_before_pointer) ... ok
+test_release_80_write_after_pointer_is_selected_as_new_head (test_state_sync.StateSyncArchiveTests.test_release_80_write_after_pointer_is_selected_as_new_head) ... ok
+test_restore_rejects_content_that_does_not_match_manifest (test_state_sync.StateSyncArchiveTests.test_restore_rejects_content_that_does_not_match_manifest) ... ok
+test_restore_rejects_path_traversal (test_state_sync.StateSyncArchiveTests.test_restore_rejects_path_traversal) ... ok
+test_sparse_overrides_inherit_new_packaged_defaults (test_state_sync.StateSyncArchiveTests.test_sparse_overrides_inherit_new_packaged_defaults) ... ok
+test_unchanged_remote_head_uses_metadata_only (test_state_sync.StateSyncArchiveTests.test_unchanged_remote_head_uses_metadata_only) ... ok
+test_auth_failure_safe_diagnostics_and_no_binding (test_tenant_setup.BrowserAuthenticationTests.test_auth_failure_safe_diagnostics_and_no_binding) ... ok
+test_browser_callback_scope_authority_and_no_persistent_cache (test_tenant_setup.BrowserAuthenticationTests.test_browser_callback_scope_authority_and_no_persistent_cache) ... ok
+test_expired_browser_link_does_not_exchange_token (test_tenant_setup.BrowserAuthenticationTests.test_expired_browser_link_does_not_exchange_token) ... ok
+test_msal_validation_error_never_reaches_binding_or_logs_callback (test_tenant_setup.BrowserAuthenticationTests.test_msal_validation_error_never_reaches_binding_or_logs_callback) ... ok
+test_wrong_tenant_user_or_missing_claims_never_reaches_binding (test_tenant_setup.BrowserAuthenticationTests.test_wrong_tenant_user_or_missing_claims_never_reaches_binding) ... ok
+test_confirmation_is_saved_and_not_repeated (test_tenant_setup.ProjectReuseTests.test_confirmation_is_saved_and_not_repeated) ... ok
+test_decline_leaves_provisioning_checkpoint_unchanged (test_tenant_setup.ProjectReuseTests.test_decline_leaves_provisioning_checkpoint_unchanged) ... ok
+test_new_environment_does_not_prompt (test_tenant_setup.ProjectReuseTests.test_new_environment_does_not_prompt) ... ok
+test_acceptance_only_completes_after_operator_checks (test_tenant_setup.TenantSetupTests.test_acceptance_only_completes_after_operator_checks) ... ok
+test_activation_polling_bounded (test_tenant_setup.TenantSetupTests.test_activation_polling_bounded) ... ok
+test_activation_requires_explicit_confirmation (test_tenant_setup.TenantSetupTests.test_activation_requires_explicit_confirmation) ... ok
+test_adopt_existing_resolves_live_bot_without_writes (test_tenant_setup.TenantSetupTests.test_adopt_existing_resolves_live_bot_without_writes) ... ok
+test_already_bound_no_put (test_tenant_setup.TenantSetupTests.test_already_bound_no_put) ... ok
+test_approval_lost_returns_to_wait (test_tenant_setup.TenantSetupTests.test_approval_lost_returns_to_wait) ... ok
+test_approved_publication_skips_publication_prompt (test_tenant_setup.TenantSetupTests.test_approved_publication_skips_publication_prompt) ... ok
+test_bad_checkpoint_fail_closed (test_tenant_setup.TenantSetupTests.test_bad_checkpoint_fail_closed) ... ok
+test_binding_preserves_settings_and_uses_documented_api (test_tenant_setup.TenantSetupTests.test_binding_preserves_settings_and_uses_documented_api) ... ok
+test_bot_endpoint_must_match_hosted_agent (test_tenant_setup.TenantSetupTests.test_bot_endpoint_must_match_hosted_agent) ... ok
+test_checkpoint_private_and_roundtrips (test_tenant_setup.TenantSetupTests.test_checkpoint_private_and_roundtrips) ... ok
+test_complete_but_later_disabled_never_silently_reenabled (test_tenant_setup.TenantSetupTests.test_complete_but_later_disabled_never_silently_reenabled) ... ok
+test_completed_resume_has_no_writes (test_tenant_setup.TenantSetupTests.test_completed_resume_has_no_writes) ... ok
+test_deployment_rejects_changed_target_before_api (test_tenant_setup.TenantSetupTests.test_deployment_rejects_changed_target_before_api) ... ok
+test_disabled_runtime_enabled_once_and_read_back (test_tenant_setup.TenantSetupTests.test_disabled_runtime_enabled_once_and_read_back) ... ok
+test_empty_enable_response_accepted (test_tenant_setup.TenantSetupTests.test_empty_enable_response_accepted) ... ok
+test_enable_forbidden_retains_resume_phase (test_tenant_setup.TenantSetupTests.test_enable_forbidden_retains_resume_phase) ... ok
+test_enabled_resume_does_not_post (test_tenant_setup.TenantSetupTests.test_enabled_resume_does_not_post) ... ok
+test_env_parser_never_executes_values (test_tenant_setup.TenantSetupTests.test_env_parser_never_executes_values) ... ok
+test_eof_and_interrupt_pause_safely (test_tenant_setup.TenantSetupTests.test_eof_and_interrupt_pause_safely) ... ok
+test_existing_adoption_rejects_wrong_tenant (test_tenant_setup.TenantSetupTests.test_existing_adoption_rejects_wrong_tenant) ... ok
+test_existing_setup_client_reused_without_writes (test_tenant_setup.TenantSetupTests.test_existing_setup_client_reused_without_writes) ... ok
+test_failed_delivery_keeps_installation_incomplete (test_tenant_setup.TenantSetupTests.test_failed_delivery_keeps_installation_incomplete) ... ok
+test_force_archives_checkpoint_and_restarts_at_prerequisites (test_tenant_setup.TenantSetupTests.test_force_archives_checkpoint_and_restarts_at_prerequisites) ... [state-sync] no remote owner-state snapshot
+[state-sync] save skipped because remote refresh did not complete
+[state-sync] restored owner state files=3 bytes=602
+[state-sync] refreshed concurrent owner state files=1 deletions=0 conflicts=0
+Existing Foundry project found: acct/proj
+Resource: /project-id
+Reuse keeps this project and its identity. Setup updates infrastructure in place; with --force it also rebuilds and reinstalls the Hermes application.
+Existing Foundry project found: acct/proj
+Resource: /project-id
+Reuse keeps this project and its identity. Setup updates infrastructure in place; with --force it also rebuilds and reinstalls the Hermes application.
+
+CREATE OR SELECT YOUR FIRST INSTANCE
+Open https://admin.cloud.microsoft/#/agents/all > Hermes Agent on Foundry > Add/Create instance.
+Choose its employee owner/manager, name, alias and domain, then confirm creation.
+Alternatively: https://teams.microsoft.com/ > Apps > Agents for your team > Hermes Agent on Foundry
+> Create instance, using an employee in the approved hiring scope.
+Reuse an existing instance from THIS blueprint when resuming; do not create duplicates.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+If unavailable: check hiring scope, Frontier seat availability and Requests approval in the same tenant.
+Do not manually create Agent User objects or assign per-instance roles as a workaround.
+If Nous inference is selected, the first message returns sign-in instructions without using a model.
+Send /portal login in a one-to-one chat, approve in your browser, then send /portal status.
+If allowed, /provider azure-foundry switches to Foundry; /model lists permitted deployments.
+A sign-in/setup response alone does not pass the chat test below; verify a model-generated reply.
+Send "Hello, introduce yourself" in its Teams chat; verify a real text reply, not only a progress message.
+Ask it to create a uniquely named installation-test text file without overwriting existing files, read it back, then delete only that test file.
+Ask it to send a test email to its owner; confirm receipt from the agent mailbox.
+If routine automation was installed: allow its reconciliation interval (normally five minutes),
+ask the agent to schedule a test email a few minutes ahead in an explicit timezone, confirm receipt,
+then ask it to delete the test routine. A listed routine alone is not a successful execution test.
+Installation checks complete. Runtime configuration verified by API; Teams/OneDrive/email confirmed by the operator.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+Routine outcome (operator reported): tested. This is not an automated execution test.
+
+The Foundry endpoint is disabled. This is NOT an idle/scale-to-zero container.
+Enabling it lets all instances of THIS blueprint receive requests; it does not keep compute always running.
+
+The Foundry endpoint is disabled. This is NOT an idle/scale-to-zero container.
+Enabling it lets all instances of THIS blueprint receive requests; it does not keep compute always running.
+
+EXISTING DEPLOYMENT — no infrastructure provisioning, image build, publication or role assignment
+Hosted agent: https://example.services.ai.azure.com/api/projects/example-project/agents/example-agent
+Live blueprint: 22222222-2222-2222-2222-222222222222
+Matching Azure Bot: /subscriptions/11111111-1111-1111-1111-111111111111/resourceGroups/example/providers/Microsoft.BotService/botServices/example
+WARNING: old azd blueprint/bot outputs differ. They will NOT be overwritten or deployed.
+SETUP ALREADY COMPLETE: publication, Teams connection, and runtime were verified. No setup action is required. Prior operator delivery checks are saved, not repeated live tests.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+
+The Foundry endpoint is disabled. This is NOT an idle/scale-to-zero container.
+Enabling it lets all instances of THIS blueprint receive requests; it does not keep compute always running.
+PASS: Foundry endpoint enabled; serving Hermes version and routing verified.
+
+The Foundry endpoint is disabled. This is NOT an idle/scale-to-zero container.
+Enabling it lets all instances of THIS blueprint receive requests; it does not keep compute always running.
+PASS: Foundry endpoint enabled; serving Hermes version and routing verified.
+
+CREATE OR SELECT YOUR FIRST INSTANCE
+Open https://admin.cloud.microsoft/#/agents/all > Hermes Agent on Foundry > Add/Create instance.
+Choose its employee owner/manager, name, alias and domain, then confirm creation.
+Alternatively: https://teams.microsoft.com/ > Apps > Agents for your team > Hermes Agent on Foundry
+> Create instance, using an employee in the approved hiring scope.
+Reuse an existing instance from THIS blueprint when resuming; do not create duplicates.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+If unavailable: check hiring scope, Frontier seat availability and Requests approval in the same tenant.
+Do not manually create Agent User objects or assign per-instance roles as a workaround.
+If Nous inference is selected, the first message returns sign-in instructions without using a model.
+Send /portal login in a one-to-one chat, approve in your browser, then send /portal status.
+If allowed, /provider azure-foundry switches to Foundry; /model lists permitted deployments.
+A sign-in/setup response alone does not pass the chat test below; verify a model-generated reply.
+Send "Hello, introduce yourself" in its Teams chat; verify a real text reply, not only a progress message.
+Previous checkpoint archived to /var/folders/yy/267r4rs55872md6y9b1gl60c0000gn/T/tmpdbm4ygiw/setup-history/setup-state-0d1dd3b0-727e-447a-89e7-08a2eace12eb.json. Existing Azure resources remain.
+ok
+test_force_validates_new_target_before_archiving (test_tenant_setup.TenantSetupTests.test_force_validates_new_target_before_archiving) ... ok
+test_guided_new_tenant_runs_all_phases_in_order (test_tenant_setup.TenantSetupTests.test_guided_new_tenant_runs_all_phases_in_order) ... 
+BEFORE AZURE PROVISIONING (no license purchases or security-policy changes are automated)
+Use the customer tenant's administrator account, not an unrelated personal tenant.
+1. https://admin.cloud.microsoft/#/agents/overview : Global Administrator accepts Frontier terms.
+2. https://admin.cloud.microsoft/#/licenses : confirm an available agent-specific Frontier/AI Teammates seat.
+   Human Agent 365 governance licensing is not a replacement for that preview seat.
+   If enrollment is unavailable, check Microsoft's current eligibility and Purchase services at
+   https://admin.cloud.microsoft/#/catalog ; see TENANT_ADMIN_INSTALLATION.md before buying anything.
+3. Confirm the pilot employee can use Teams and is in the intended Frontier/hiring audience.
+4. https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2 : select your subscription.
+   Access control (IAM) must allow infrastructure deployment AND role assignments.
+   For this installer, subscription Owner is the simplest setup; scoped Contributor + RBAC admin
+   requires the resource-group/role scopes described in ADVANCED_TENANT_DEPLOYMENT.md.
+5. https://ai.azure.com/ : check hosted-agent regional availability and model quota.
+   The template deploys your selected Foundry model/version with Global Standard capacity 5.
+   This is a small pilot quota; see infra/main.bicep for model/version/capacity choices.
+Azure charges apply. Setup builds the image in ACR (no local Docker required), creates the
+runtime and private publication, and by default installs routine RBAC automation once per tenant deployment.
+That automation grants eligible child Agent Identities project access; no per-agent manual CLI grants.
+These portal prerequisites are operator confirmations, not automated entitlement or quota verification.
+DONE: Microsoft reports the blueprint approved. Publish to Store is already complete; no publication action is needed.
+
+Connect Teams messages to your deployed Hermes agent.
+Setup configures and verifies the connection automatically. Follow the Microsoft browser sign-in prompt; no manual Bot ID entry is needed.
+This creates/reuses a tenant-owned setup app with one delegated permission: AgentCommunicationConfiguration.ReadWrite
+Consent is for the signed-in administrator only. No application permissions, secrets, or agent roles are added.
+
+Bot Based configuration verified. No manual Bot ID entry is needed.
+ok
+test_http_failures_do_not_retry_writes (test_tenant_setup.TenantSetupTests.test_http_failures_do_not_retry_writes) ... ok
+test_instance_must_belong_to_installation (test_tenant_setup.TenantSetupTests.test_instance_must_belong_to_installation) ... ok
+test_known_creation_rejection_can_resume (test_tenant_setup.TenantSetupTests.test_known_creation_rejection_can_resume) ... ok
+test_missing_checkpoint_actionable (test_tenant_setup.TenantSetupTests.test_missing_checkpoint_actionable) ... ok
+test_new_client_only_delegated_single_admin_consent (test_tenant_setup.TenantSetupTests.test_new_client_only_delegated_single_admin_consent) ... ok
+test_notification_change_not_success (test_tenant_setup.TenantSetupTests.test_notification_change_not_success) ... ok
+test_old_complete_checkpoint_migrates_without_reprovision (test_tenant_setup.TenantSetupTests.test_old_complete_checkpoint_migrates_without_reprovision) ... ok
+test_pending_approval_does_not_provision_or_configure (test_tenant_setup.TenantSetupTests.test_pending_approval_does_not_provision_or_configure) ... PASS: Foundry endpoint enabled; serving Hermes version and routing verified.
+
+CREATE OR SELECT YOUR FIRST INSTANCE
+Open https://admin.cloud.microsoft/#/agents/all > Hermes Agent on Foundry > Add/Create instance.
+Choose its employee owner/manager, name, alias and domain, then confirm creation.
+Alternatively: https://teams.microsoft.com/ > Apps > Agents for your team > Hermes Agent on Foundry
+> Create instance, using an employee in the approved hiring scope.
+Reuse an existing instance from THIS blueprint when resuming; do not create duplicates.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+If unavailable: check hiring scope, Frontier seat availability and Requests approval in the same tenant.
+Do not manually create Agent User objects or assign per-instance roles as a workaround.
+If Nous inference is selected, the first message returns sign-in instructions without using a model.
+Send /portal login in a one-to-one chat, approve in your browser, then send /portal status.
+If allowed, /provider azure-foundry switches to Foundry; /model lists permitted deployments.
+A sign-in/setup response alone does not pass the chat test below; verify a model-generated reply.
+Send "Hello, introduce yourself" in its Teams chat; verify a real text reply, not only a progress message.
+Ask it to create a uniquely named installation-test text file without overwriting existing files, read it back, then delete only that test file.
+Ask it to send a test email to its owner; confirm receipt from the agent mailbox.
+If routine automation was installed: allow its reconciliation interval (normally five minutes),
+ask the agent to schedule a test email a few minutes ahead in an explicit timezone, confirm receipt,
+then ask it to delete the test routine. A listed routine alone is not a successful execution test.
+Installation checks complete. Runtime configuration verified by API; Teams/OneDrive/email confirmed by the operator.
+
+FIND HERMES IN MICROSOFT TEAMS
+After publication and successful connection checks, Hermes Agent on Foundry should become available in Teams within a few minutes.
+Microsoft-side provisioning sometimes takes up to a few hours. This is an observed delay, not a guaranteed deadline.
+1. Open Microsoft Teams and switch to the organization where Hermes was installed.
+2. Select Apps > Built for your org. Search for Hermes Agent on Foundry.
+3. Open Hermes Agent on Foundry and select Add. Follow any instance-creation prompts shown by Teams.
+4. Open the agent chat to start using Hermes. Reuse your existing instance if you already created one.
+If Built for your org is not shown, search for Hermes Agent on Foundry in Apps.
+If Hermes is missing, refresh Teams after waiting and ask your administrator to check your selected audience and Teams app policy.
+Routine outcome (operator reported): tested. This is not an automated execution test.
+PASS: enabled Agent User and Agent Identity belong to this installation's blueprint.
+Older checkpoint verified Bot Based routing only. Runtime and first-instance checks are still required.
+
+PUBLISH HERMES TO STORE IN MICROSOFT 365
+Open: https://admin.cloud.microsoft/#/agents/all/requested
+Select Hermes Agent on Foundry. Review permissions/hiring scope and select Publish to Store.
+Under "Activate (optional)" > "Select users who can create agent instances", choose None / All / Specific.
+None selects no users; All selects all users; Specific selects users/groups for a pilot. This does not create an instance.
+It can take about 5 minutes to appear; in rare cases a few hours. These are observed delays, not an SLA.
+You can stop here and run ./setup.sh --continue later; Azure provisioning will not repeat.
+After Publish to Store finishes, return to this terminal. Publication makes Hermes available; setup must still connect Teams messages to the deployed agent and verify its endpoint.
+Press Enter below, then follow the Microsoft sign-in prompt. Keep this terminal open until setup asks you to create an instance.
+ok
+test_post_hook_mismatch_does_not_advance (test_tenant_setup.TenantSetupTests.test_post_hook_mismatch_does_not_advance) ... ok
+test_prerequisite_decline_prevents_provision (test_tenant_setup.TenantSetupTests.test_prerequisite_decline_prevents_provision) ... ok
+test_provision_failure_retains_phase (test_tenant_setup.TenantSetupTests.test_provision_failure_retains_phase) ... ok
+test_readback_mismatch_not_success (test_tenant_setup.TenantSetupTests.test_readback_mismatch_not_success) ... ok
+test_resume_configuration_skips_provision_and_finishes (test_tenant_setup.TenantSetupTests.test_resume_configuration_skips_provision_and_finishes) ... 
+BEFORE AZURE PROVISIONING (no license purchases or security-policy changes are automated)
+Use the customer tenant's administrator account, not an unrelated personal tenant.
+1. https://admin.cloud.microsoft/#/agents/overview : Global Administrator accepts Frontier terms.
+2. https://admin.cloud.microsoft/#/licenses : confirm an available agent-specific Frontier/AI Teammates seat.
+   Human Agent 365 governance licensing is not a replacement for that preview seat.
+   If enrollment is unavailable, check Microsoft's current eligibility and Purchase services at
+   https://admin.cloud.microsoft/#/catalog ; see TENANT_ADMIN_INSTALLATION.md before buying anything.
+3. Confirm the pilot employee can use Teams and is in the intended Frontier/hiring audience.
+4. https://portal.azure.com/#view/Microsoft_Azure_Billing/SubscriptionsBladeV2 : select your subscription.
+   Access control (IAM) must allow infrastructure deployment AND role assignments.
+   For this installer, subscription Owner is the simplest setup; scoped Contributor + RBAC admin
+   requires the resource-group/role scopes described in ADVANCED_TENANT_DEPLOYMENT.md.
+5. https://ai.azure.com/ : check hosted-agent regional availability and model quota.
+   The template deploys your selected Foundry model/version with Global Standard capacity 5.
+   This is a small pilot quota; see infra/main.bicep for model/version/capacity choices.
+Azure charges apply. Setup builds the image in ACR (no local Docker required), creates the
+runtime and private publication, and by default installs routine RBAC automation once per tenant deployment.
+That automation grants eligible child Agent Identities project access; no per-agent manual CLI grants.
+These portal prerequisites are operator confirmations, not automated entitlement or quota verification.
+
+Connect Teams messages to your deployed Hermes agent.
+Setup configures and verifies the connection automatically. Follow the Microsoft browser sign-in prompt; no manual Bot ID entry is needed.
+This creates/reuses a tenant-owned setup app with one delegated permission: AgentCommunicationConfiguration.ReadWrite
+Consent is for the signed-in administrator only. No application permissions, secrets, or agent roles are added.
+
+Bot Based configuration verified. No manual Bot ID entry is needed.
+ok
+test_saved_checkpoint_error_explains_force (test_tenant_setup.TenantSetupTests.test_saved_checkpoint_error_explains_force) ... ok
+test_serving_route_validation (test_tenant_setup.TenantSetupTests.test_serving_route_validation) ... ok
+test_setup_help_documents_continue_without_azure (test_tenant_setup.TenantSetupTests.test_setup_help_documents_continue_without_azure) ... ok
+test_unknown_creation_outcome_never_duplicates (test_tenant_setup.TenantSetupTests.test_unknown_creation_outcome_never_duplicates) ... ok
+test_unknown_fields_prevent_destructive_replace (test_tenant_setup.TenantSetupTests.test_unknown_fields_prevent_destructive_replace) ... ok
+test_untrusted_url_refuses_token (test_tenant_setup.TenantSetupTests.test_untrusted_url_refuses_token) ... ok
+test_wrong_tenant_rejected_before_api (test_tenant_setup.TenantSetupTests.test_wrong_tenant_rejected_before_api) ... ok
+test_already_routed_resume_validates_without_patch (test_version_routing.VersionRoutingTests.test_already_routed_resume_validates_without_patch) ... ok
+test_non_production_target_aborts_before_any_write (test_version_routing.VersionRoutingTests.test_non_production_target_aborts_before_any_write) ... ok
+test_patch_error_is_resolved_by_reading_actual_route (test_version_routing.VersionRoutingTests.test_patch_error_is_resolved_by_reading_actual_route) ... ok
+test_patch_error_without_route_change_fails_without_retry (test_version_routing.VersionRoutingTests.test_patch_error_without_route_change_fails_without_retry) ... ok
+test_route_changes_during_readiness_wait_are_not_overwritten (test_version_routing.VersionRoutingTests.test_route_changes_during_readiness_wait_are_not_overwritten) ... ok
+test_route_validates_then_patches_and_reads_back (test_version_routing.VersionRoutingTests.test_route_validates_then_patches_and_reads_back) ... ok
+test_stale_current_version_aborts_before_any_write (test_version_routing.VersionRoutingTests.test_stale_current_version_aborts_before_any_write) ... ok
+test_terminal_version_failure_does_not_route (test_version_routing.VersionRoutingTests.test_terminal_version_failure_does_not_route) ... ok
+test_waits_for_creating_version_then_routes (test_version_routing.VersionRoutingTests.test_waits_for_creating_version_then_routes) ... ok
+test_credentials_http_custom_ports_and_unresolved_hosts_are_refused (test_web_target_security.WebTargetSecurityTests.test_credentials_http_custom_ports_and_unresolved_hosts_are_refused) ... ok
+test_private_ipv4_ipv6_and_mixed_dns_are_refused (test_web_target_security.WebTargetSecurityTests.test_private_ipv4_ipv6_and_mixed_dns_are_refused) ... ok
+test_public_https_target_is_accepted (test_web_target_security.WebTargetSecurityTests.test_public_https_target_is_accepted) ... ok
+test_redirect_handler_revalidates_destination_before_following (test_web_target_security.WebTargetSecurityTests.test_redirect_handler_revalidates_destination_before_following) ... ok
+
+======================================================================
+FAIL: test_build_script_sends_staged_context_and_cleans_it (test_build_context.BuildContextTests.test_build_script_sends_staged_context_and_cleans_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/Nous Research/repos/hermes-foundry/tests/test_build_context.py", line 94, in test_build_script_sends_staged_context_and_cleans_it
+    self.assertEqual(result.returncode, 0, result.stderr)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 126 != 0 : build.sh: /var/folders/yy/267r4rs55872md6y9b1gl60c0000gn/T/tmp__yo1hpo/bin/az: /Users/user/Nous: bad interpreter: No such file or directory
+
+
+======================================================================
+FAIL: test_real_script_waits_and_revalidates_without_second_post (test_new_version_resume.NewVersionResumeTests.test_real_script_waits_and_revalidates_without_second_post)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/user/Nous Research/repos/hermes-foundry/tests/test_new_version_resume.py", line 62, in test_real_script_waits_and_revalidates_without_second_post
+    self.assertIn('Timed out waiting', first.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Timed out waiting' not found in '/var/folders/yy/267r4rs55872md6y9b1gl60c0000gn/T/tmpwx_z6_90/new-version.sh: /var/folders/yy/267r4rs55872md6y9b1gl60c0000gn/T/tmpwx_z6_90/bin/az: /Users/user/Nous: bad interpreter: No such file or directory\n'
+
+----------------------------------------------------------------------
+Ran 372 tests in 26.746s
+
+FAILED (failures=2, skipped=3)
+
+ERROR: release tests may not be skipped:
+  test_existing_agent_reuses_identity_without_blueprint_write (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_existing_agent_reuses_identity_without_blueprint_write): PowerShell required for deployment-script behavior tests
+  test_invalid_identity_and_lookup_failures_never_create_blueprint (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_invalid_identity_and_lookup_failures_never_create_blueprint): PowerShell required for deployment-script behavior tests
+  test_only_404_creates_blueprint (test_blueprint_identity_reuse.BlueprintIdentityReuseTests.test_only_404_creates_blueprint): PowerShell required for deployment-script behavior tests
+"$LAB/lab/foundry-venv/bin/python" scripts/run-python-tests.py  6.25s user 3.24s system 33% cpu 28.075 total

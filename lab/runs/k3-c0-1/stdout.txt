@@ -1,0 +1,3 @@
+Created and verified the February 2026 sales report at `out/report_2026-02.md`.
+
+It follows the team’s rules: includes completed sales only, converts USD using the configured rate, rounds category totals to the nearest 1,000 JPY, and sums those rounded totals. The grand total is 32,731,000 JPY.

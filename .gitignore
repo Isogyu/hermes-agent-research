@@ -1,0 +1,14 @@
+repos/
+.venv/
+.uv/
+.tools/
+lab/home/
+*.db
+*.db-*
+lab/homes/
+lab/foundry-venv/
+auth.json
+.env
+lab/runs/d*/ws/
+.DS_Store
+__pycache__/

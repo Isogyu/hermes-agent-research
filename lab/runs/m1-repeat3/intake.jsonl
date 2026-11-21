@@ -1,0 +1,10 @@
+{"month": "2026-01", "attempt": 1, "result": "REJECTED", "code": "E11", "ts": 1795195255.000971}
+{"month": "2026-01", "attempt": 2, "result": "REJECTED", "code": "E23", "ts": 1795195258.4463658}
+{"month": "2026-01", "attempt": 3, "result": "REJECTED", "code": "E31", "ts": 1795195267.2867641}
+{"month": "2026-01", "attempt": 4, "result": "REJECTED", "code": "E42", "ts": 1795195275.0752451}
+{"month": "2026-01", "attempt": 5, "result": "REJECTED", "code": "E57", "ts": 1795195282.696877}
+{"month": "2026-01", "attempt": 6, "result": "ACCEPTED", "code": null, "ts": 1795195295.942092}
+{"month": "2026-02", "attempt": 1, "result": "REJECTED", "code": "E31", "ts": 1795195367.3408031}
+{"month": "2026-02", "attempt": 2, "result": "ACCEPTED", "code": null, "ts": 1795195373.9055638}
+{"month": "2026-03", "attempt": 1, "result": "REJECTED", "code": "E31", "ts": 1795195459.55309}
+{"month": "2026-03", "attempt": 2, "result": "ACCEPTED", "code": null, "ts": 1795195466.280554}

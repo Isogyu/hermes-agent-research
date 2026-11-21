@@ -1,0 +1,1 @@
+{"name": "k2-c0-3", "month": "2026-04", "seconds": 56, "api_calls": 7, "input": 137984, "cache_read": 91136, "output": 1403, "tool_calls": 12, "skill_view": 1, "skill_manage": 0, "score": 6, "pass": true, "check": {"file": true, "header": true, "grand_total": true, "categories": true, "sorted": true, "findings3": true, "score": 6, "pass": true}, "completed": true}

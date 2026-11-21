@@ -1,0 +1,1 @@
+{"model": "hermes-agent", "messages": [{"role": "user", "content": "Produce the monthly sales report for 2026-01 following the team reporting rules, then submit it to finance as described in docs/submission.md."}]}

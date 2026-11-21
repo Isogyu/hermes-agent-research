@@ -1,0 +1,37 @@
+{
+  "estimated_cost_usd": 0.0,
+  "cost_status": "included",
+  "cost_source": "none",
+  "input_tokens": 158928,
+  "output_tokens": 1348,
+  "cache_read_tokens": 143104,
+  "cache_write_tokens": 0,
+  "reasoning_tokens": 97,
+  "total_tokens": 160276,
+  "api_calls": 10,
+  "model": "gpt-6-luna",
+  "provider": "openai-codex",
+  "session_id": "local-1cd9dee47ac70bade56a543a73dd9dbd2093d4a5ffa3417c96dc5407a421f4a3",
+  "completed": true,
+  "partial": false,
+  "interrupted": false,
+  "turn_exit_reason": "text_response(finish_reason=stop)",
+  "failed": false,
+  "service_tier": null,
+  "auxiliary": {
+    "api_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 0,
+    "estimated_cost_usd": 0,
+    "total_tokens": 0,
+    "by_task": {}
+  },
+  "total_including_auxiliary": {
+    "estimated_cost_usd": 0.0,
+    "total_tokens": 160276,
+    "api_calls": 10
+  }
+}

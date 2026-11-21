@@ -1,0 +1,35 @@
+{
+ "name": "m2-patched",
+ "patched": true,
+ "turns": [
+  {
+   "month": "2026-01",
+   "seconds": 357,
+   "usage": {
+    "input_tokens": 323875,
+    "output_tokens": 1069,
+    "total_tokens": 324944
+   },
+   "attempts": 2,
+   "codes": [
+    "E11",
+    "E23"
+   ],
+   "review_wait": 44
+  }
+ ],
+ "reviews": [
+  "thread=bg-review calls=6 in=10158 out=1831 cache_read=140160 result=skill"
+ ],
+ "new_files": [
+  "skills/productivity/business-reporting/SKILL.md"
+ ],
+ "conventions_found": {
+  "X-Team": 2,
+  "PREPARED_BY": 1,
+  "education": 0,
+  "CURRENCY=JPY": 0,
+  "CHECKSUM": 0
+ },
+ "n_found": 2
+}

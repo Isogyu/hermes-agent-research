@@ -1,0 +1,1 @@
+{"name": "h1-c0-2", "outside_refs": 0, "month": "2026-03", "seconds": 49, "api_calls": 10, "input": 158928, "cache_read": 143104, "output": 1348, "tool_calls": 14, "skill_view": 0, "skill_manage": 0, "delegated": [], "score": 0, "pass": false, "check": {"score": 0, "pass": false, "attempts": 3, "codes": ["E11", "E23", "E31"]}, "completed": true}

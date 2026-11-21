@@ -1,0 +1,776 @@
+{
+ "updated": "2026-11-21",
+ "nodes": [
+  {
+   "id": "Q0",
+   "type": "question",
+   "label": "Hermes は継続的な業務自動化の基盤としてどこまで使えるか"
+  },
+  {
+   "id": "H1",
+   "type": "hypothesis",
+   "status": "conditionally-supported",
+   "label": "Skill の再利用で2回目以降のコストが下がる（コードつき Skill に限る）"
+  },
+  {
+   "id": "H2",
+   "type": "hypothesis",
+   "status": "weakened",
+   "label": "自動の Skill 化は実際に働く（起動はするが中身が役に立たない）"
+  },
+  {
+   "id": "H3",
+   "type": "hypothesis",
+   "status": "weakened",
+   "label": "Skill の蓄積は組織規模まで伸ばせる"
+  },
+  {
+   "id": "H4",
+   "type": "hypothesis",
+   "status": "supported",
+   "label": "既定設定では Skill が永続的なインジェクション経路になる"
+  },
+  {
+   "id": "H5",
+   "type": "hypothesis",
+   "status": "訂正: 別リポジトリ hermes-collective-wisdom に実装あり",
+   "label": "Collective Wisdom は公開コードに実装されている"
+  },
+  {
+   "id": "H6",
+   "type": "hypothesis",
+   "status": "weakened",
+   "label": "Hermes は Claude Code や Codex の上位制御層になれる"
+  },
+  {
+   "id": "H7",
+   "type": "hypothesis",
+   "status": "partly-supported",
+   "label": "Foundry 版の主要部分は Azure なしで検証できる"
+  },
+  {
+   "id": "H8",
+   "type": "hypothesis",
+   "status": "refuted",
+   "label": "API サーバーのセッション ID 衝突で会話履歴が漏れる"
+  },
+  {
+   "id": "H9",
+   "type": "hypothesis",
+   "status": "weakened",
+   "label": "固定費約1万トークンが小型モデルと低メモリ環境を締め出す"
+  },
+  {
+   "id": "EV01",
+   "type": "evidence",
+   "label": "Hermes Agent ソース解析"
+  },
+  {
+   "id": "EV02",
+   "type": "evidence",
+   "label": "Hermes Foundry ソース解析"
+  },
+  {
+   "id": "EV03",
+   "type": "evidence",
+   "label": "Nous の発表ページ（2026-11-18）"
+  },
+  {
+   "id": "E001",
+   "type": "experiment",
+   "label": "導入"
+  },
+  {
+   "id": "E002",
+   "type": "experiment",
+   "label": "ローカル小型モデルの疎通"
+  },
+  {
+   "id": "E003",
+   "type": "experiment",
+   "label": "固定費と Skill 一覧"
+  },
+  {
+   "id": "E004",
+   "type": "experiment",
+   "label": "エージェント作成 Skill の安全検査"
+  },
+  {
+   "id": "E005",
+   "type": "experiment",
+   "label": "振り返りの起動条件（1回実行）"
+  },
+  {
+   "id": "E006",
+   "type": "experiment",
+   "label": "振り返り（ゲートウェイ）"
+  },
+  {
+   "id": "E007",
+   "type": "experiment",
+   "label": "セッション ID 衝突"
+  },
+  {
+   "id": "F1",
+   "type": "finding",
+   "label": "実質の Python 要件は 3.14"
+  },
+  {
+   "id": "F2",
+   "type": "finding",
+   "label": "最小リクエスト約1万トークン、毎回送り直す"
+  },
+  {
+   "id": "F3",
+   "type": "finding",
+   "label": "Skill 一覧は上限なしで線形、説明は60字で切れる"
+  },
+  {
+   "id": "F4",
+   "type": "finding",
+   "label": "通常ターンで書く Skill は既定で無検査"
+  },
+  {
+   "id": "F5",
+   "type": "finding",
+   "label": "自動振り返りは 1回実行・cron・子エージェントで無効"
+  },
+  {
+   "id": "F6",
+   "type": "finding",
+   "label": "振り返り役は権限を絞られ、書き込みは常に検査される"
+  },
+  {
+   "id": "F7",
+   "type": "finding",
+   "label": "Foundry 版は端末とファイルを無効化し、Skill はインスタンス単位で共有なし"
+  },
+  {
+   "id": "F8",
+   "type": "finding",
+   "label": "発表の Collective Wisdom に当たる実装は公開2リポジトリにない"
+  },
+  {
+   "id": "O1",
+   "type": "open",
+   "label": "実モデルでの Skill 再利用の効果"
+  },
+  {
+   "id": "O2",
+   "type": "open",
+   "label": "一覧が大きいときの Skill 選択精度"
+  },
+  {
+   "id": "O3",
+   "type": "open",
+   "label": "承認機構が実行段階で危険コマンドを止めるか"
+  },
+  {
+   "id": "O4",
+   "type": "open",
+   "label": "Foundry のテストをローカルで走らせた結果"
+  },
+  {
+   "id": "O5",
+   "type": "open",
+   "label": "Hermes から Claude Code / Codex を動かしたときの実力"
+  },
+  {
+   "id": "O6",
+   "type": "open",
+   "label": "同一セッション ID でのサンドボックス共有"
+  },
+  {
+   "id": "E008",
+   "type": "experiment",
+   "label": "Foundry テストのローカル実行"
+  },
+  {
+   "id": "E009",
+   "type": "experiment",
+   "label": "危険コマンドの承認機構"
+  },
+  {
+   "id": "F9",
+   "type": "finding",
+   "label": "承認の可否は経路で決まる: -z は通す、chat -q は止める、ゲートウェイは補助 LLM の1語"
+  },
+  {
+   "id": "F10",
+   "type": "finding",
+   "label": "ゲートウェイの端末は既定で利用者のホームで実行される"
+  },
+  {
+   "id": "O7",
+   "type": "open",
+   "label": "smart 承認の判定役の誤承認率"
+  },
+  {
+   "id": "E010",
+   "type": "experiment",
+   "label": "ローカルモデル再挑戦"
+  },
+  {
+   "id": "E011",
+   "type": "experiment",
+   "label": "Codex 契約を推論元にする"
+  },
+  {
+   "id": "E012",
+   "type": "experiment",
+   "label": "Skill 再利用（実モデル）"
+  },
+  {
+   "id": "EV04",
+   "type": "evidence",
+   "label": "Skill 再利用実験の集計"
+  },
+  {
+   "id": "F11",
+   "type": "finding",
+   "label": "スクリプトつき Skill は入力約1/3・時間約1/2。汎用 Skill は効果なし"
+  },
+  {
+   "id": "F12",
+   "type": "finding",
+   "label": "前提が変わると古い Skill は 0/3 で誤答し、成功と報告する"
+  },
+  {
+   "id": "F13",
+   "type": "finding",
+   "label": "隔離しないとエージェントは作業フォルダ外を検索して読む"
+  },
+  {
+   "id": "H10",
+   "type": "hypothesis",
+   "status": "supported",
+   "label": "コードに固めた Skill は前提の変化で黙って誤答する"
+  },
+  {
+   "id": "O8",
+   "type": "open",
+   "label": "自動の振り返りは効く形（コードつき）の Skill を書くか"
+  },
+  {
+   "id": "O9",
+   "type": "open",
+   "label": "Skill なしでは失敗する業務での品質への効果"
+  },
+  {
+   "id": "E013",
+   "type": "experiment",
+   "label": "Claude Code / Codex への委任"
+  },
+  {
+   "id": "F14",
+   "type": "finding",
+   "label": "委任は動くが直接実行の2〜5倍遅い。連携は Skill の文章と CLI の一致に依存"
+  },
+  {
+   "id": "F15",
+   "type": "finding",
+   "label": "下位エージェントが権限で止めた書き込みを上位の Hermes が代行した"
+  },
+  {
+   "id": "E014",
+   "type": "experiment",
+   "label": "ローカル 4B モデルで Skill つき業務"
+  },
+  {
+   "id": "F16",
+   "type": "finding",
+   "label": "4B モデルは上位モデルが書いた Skill を使いこなせない"
+  },
+  {
+   "id": "E015",
+   "type": "experiment",
+   "label": "Gemini / OpenRouter の無料枠"
+  },
+  {
+   "id": "E016",
+   "type": "experiment",
+   "label": "自動振り返りが書く Skill の質"
+  },
+  {
+   "id": "E017",
+   "type": "experiment",
+   "label": "文書にない知識の引き継ぎ"
+  },
+  {
+   "id": "EV05",
+   "type": "evidence",
+   "label": "暗黙知と自動振り返りの集計"
+  },
+  {
+   "id": "F17",
+   "type": "finding",
+   "label": "自動振り返りは汎用の手順書を書き、具体的な知識（5つの慣習）を0件しか残さない（2/2回）"
+  },
+  {
+   "id": "F18",
+   "type": "finding",
+   "label": "明示的に保存させた Skill は文書にない知識を引き継ぐ（3/3）。別モデルでも通用"
+  },
+  {
+   "id": "H11",
+   "type": "hypothesis",
+   "status": "supported",
+   "label": "Hermes の学習は、人が保存を指示したときに実用になり、自動では実用にならない"
+  },
+  {
+   "id": "O10",
+   "type": "open",
+   "label": "同じ業務を繰り返した後の振り返り、プロンプト調整後の振り返りなら具体値が残るか"
+  },
+  {
+   "id": "E018",
+   "type": "experiment",
+   "label": "自動振り返りの救済（繰り返し、プロンプト追加）"
+  },
+  {
+   "id": "F19",
+   "type": "finding",
+   "label": "繰り返しでも残る慣習は0/5。プロンプト追加で2/5だが、その場限りの値（ポート番号）も書き込み本番で誤る"
+  },
+  {
+   "id": "F20",
+   "type": "finding",
+   "label": "同じ会話内でも、既に学んだ拒否理由を2か月続けて繰り返した"
+  },
+  {
+   "id": "Q1",
+   "type": "question",
+   "label": "Hermes が Claude Code / Codex を超える分野や作業はあるか"
+  },
+  {
+   "id": "Q2",
+   "type": "question",
+   "label": "仕事のあり方を変えられるか（使うほど任せられる範囲が広がるか）"
+  },
+  {
+   "id": "EV07",
+   "type": "evidence",
+   "label": "DeepResearch: Hermes の公開情報の切り分け"
+  },
+  {
+   "id": "EV08",
+   "type": "evidence",
+   "label": "DeepResearch: 仕事のあり方を変える道具全般"
+  },
+  {
+   "id": "N1",
+   "type": "hypothesis",
+   "label": "同じ明示 Skill なら Hermes は Claude Code / Codex に成功率で並ぶが手数・時間では勝てない",
+   "status": "未検証"
+  },
+  {
+   "id": "N2",
+   "type": "hypothesis",
+   "label": "安いモデル＋Hermes＋明示 Skill は同等の成功率。超えうるのは1件あたりの費用だけ",
+   "status": "未検証"
+  },
+  {
+   "id": "N3",
+   "type": "hypothesis",
+   "label": "人の介入回数の減り方は道具ではなく、訂正を手順に書き戻す運用で決まる",
+   "status": "未検証"
+  }
+ ],
+ "edges": [
+  {
+   "from": "E001",
+   "to": "F1",
+   "rel": "produced"
+  },
+  {
+   "from": "E002",
+   "to": "H9",
+   "rel": "supports"
+  },
+  {
+   "from": "E003",
+   "to": "F2",
+   "rel": "produced"
+  },
+  {
+   "from": "E003",
+   "to": "F3",
+   "rel": "produced"
+  },
+  {
+   "from": "F2",
+   "to": "H9",
+   "rel": "supports"
+  },
+  {
+   "from": "F2",
+   "to": "H1",
+   "rel": "constrains"
+  },
+  {
+   "from": "F3",
+   "to": "H3",
+   "rel": "contradicts"
+  },
+  {
+   "from": "E004",
+   "to": "F4",
+   "rel": "produced"
+  },
+  {
+   "from": "F4",
+   "to": "H4",
+   "rel": "supports"
+  },
+  {
+   "from": "E005",
+   "to": "F5",
+   "rel": "produced"
+  },
+  {
+   "from": "F5",
+   "to": "H2",
+   "rel": "limits"
+  },
+  {
+   "from": "E006",
+   "to": "F6",
+   "rel": "produced"
+  },
+  {
+   "from": "E006",
+   "to": "H2",
+   "rel": "supports"
+  },
+  {
+   "from": "F6",
+   "to": "H4",
+   "rel": "narrows"
+  },
+  {
+   "from": "E007",
+   "to": "H8",
+   "rel": "contradicts"
+  },
+  {
+   "from": "E007",
+   "to": "O6",
+   "rel": "raises"
+  },
+  {
+   "from": "EV01",
+   "to": "F8",
+   "rel": "supports"
+  },
+  {
+   "from": "EV02",
+   "to": "F8",
+   "rel": "supports"
+  },
+  {
+   "from": "EV02",
+   "to": "F7",
+   "rel": "supports"
+  },
+  {
+   "from": "EV03",
+   "to": "H5",
+   "rel": "claims"
+  },
+  {
+   "from": "F8",
+   "to": "H5",
+   "rel": "contradicts"
+  },
+  {
+   "from": "F7",
+   "to": "H4",
+   "rel": "context"
+  },
+  {
+   "from": "EV01",
+   "to": "E005",
+   "rel": "contradicted-then-explained"
+  },
+  {
+   "from": "O1",
+   "to": "H1",
+   "rel": "would-test"
+  },
+  {
+   "from": "O2",
+   "to": "H3",
+   "rel": "would-test"
+  },
+  {
+   "from": "O3",
+   "to": "H4",
+   "rel": "would-test"
+  },
+  {
+   "from": "O4",
+   "to": "H7",
+   "rel": "would-test"
+  },
+  {
+   "from": "O5",
+   "to": "H6",
+   "rel": "would-test"
+  },
+  {
+   "from": "E008",
+   "to": "H7",
+   "rel": "supports"
+  },
+  {
+   "from": "E009",
+   "to": "F9",
+   "rel": "produced"
+  },
+  {
+   "from": "E009",
+   "to": "F10",
+   "rel": "produced"
+  },
+  {
+   "from": "F9",
+   "to": "H4",
+   "rel": "supports"
+  },
+  {
+   "from": "E009",
+   "to": "O3",
+   "rel": "answers"
+  },
+  {
+   "from": "O7",
+   "to": "H4",
+   "rel": "would-test"
+  },
+  {
+   "from": "E012",
+   "to": "F11",
+   "rel": "produced"
+  },
+  {
+   "from": "E012",
+   "to": "F12",
+   "rel": "produced"
+  },
+  {
+   "from": "E012",
+   "to": "F13",
+   "rel": "produced"
+  },
+  {
+   "from": "EV04",
+   "to": "E012",
+   "rel": "records"
+  },
+  {
+   "from": "F11",
+   "to": "H1",
+   "rel": "supports-conditionally"
+  },
+  {
+   "from": "F12",
+   "to": "H10",
+   "rel": "supports"
+  },
+  {
+   "from": "F12",
+   "to": "H3",
+   "rel": "contradicts"
+  },
+  {
+   "from": "E010",
+   "to": "H9",
+   "rel": "weakens"
+  },
+  {
+   "from": "E011",
+   "to": "E012",
+   "rel": "enables"
+  },
+  {
+   "from": "O8",
+   "to": "H2",
+   "rel": "would-test"
+  },
+  {
+   "from": "O9",
+   "to": "H1",
+   "rel": "would-test"
+  },
+  {
+   "from": "E012",
+   "to": "O1",
+   "rel": "answers"
+  },
+  {
+   "from": "E013",
+   "to": "F14",
+   "rel": "produced"
+  },
+  {
+   "from": "E013",
+   "to": "F15",
+   "rel": "produced"
+  },
+  {
+   "from": "F14",
+   "to": "H6",
+   "rel": "weakens"
+  },
+  {
+   "from": "E013",
+   "to": "O5",
+   "rel": "partly-answers"
+  },
+  {
+   "from": "E014",
+   "to": "F16",
+   "rel": "produced"
+  },
+  {
+   "from": "E014",
+   "to": "H9",
+   "rel": "weakens"
+  },
+  {
+   "from": "F16",
+   "to": "H3",
+   "rel": "context"
+  },
+  {
+   "from": "E016",
+   "to": "F17",
+   "rel": "produced"
+  },
+  {
+   "from": "E017",
+   "to": "F17",
+   "rel": "produced"
+  },
+  {
+   "from": "E017",
+   "to": "F18",
+   "rel": "produced"
+  },
+  {
+   "from": "EV05",
+   "to": "E017",
+   "rel": "records"
+  },
+  {
+   "from": "F17",
+   "to": "H2",
+   "rel": "contradicts"
+  },
+  {
+   "from": "F17",
+   "to": "H11",
+   "rel": "supports"
+  },
+  {
+   "from": "F18",
+   "to": "H11",
+   "rel": "supports"
+  },
+  {
+   "from": "F18",
+   "to": "H1",
+   "rel": "supports"
+  },
+  {
+   "from": "E016",
+   "to": "O8",
+   "rel": "answers"
+  },
+  {
+   "from": "E017",
+   "to": "O9",
+   "rel": "answers"
+  },
+  {
+   "from": "O10",
+   "to": "H11",
+   "rel": "would-test"
+  },
+  {
+   "from": "E015",
+   "to": "E017",
+   "rel": "enables"
+  },
+  {
+   "from": "E018",
+   "to": "F19",
+   "rel": "produced"
+  },
+  {
+   "from": "E018",
+   "to": "F20",
+   "rel": "produced"
+  },
+  {
+   "from": "F19",
+   "to": "H11",
+   "rel": "supports"
+  },
+  {
+   "from": "F19",
+   "to": "H10",
+   "rel": "supports"
+  },
+  {
+   "from": "E018",
+   "to": "O10",
+   "rel": "answers"
+  },
+  {
+   "from": "EV07",
+   "to": "H5",
+   "rel": "refutes"
+  },
+  {
+   "from": "EV07",
+   "to": "H11",
+   "rel": "supports"
+  },
+  {
+   "from": "EV07",
+   "to": "H3",
+   "rel": "supports"
+  },
+  {
+   "from": "N1",
+   "to": "Q1",
+   "rel": "addresses"
+  },
+  {
+   "from": "N2",
+   "to": "Q1",
+   "rel": "addresses"
+  },
+  {
+   "from": "N3",
+   "to": "Q2",
+   "rel": "addresses"
+  },
+  {
+   "from": "EV07",
+   "to": "N1",
+   "rel": "motivates"
+  },
+  {
+   "from": "EV07",
+   "to": "N2",
+   "rel": "motivates"
+  },
+  {
+   "from": "EV08",
+   "to": "N3",
+   "rel": "motivates"
+  }
+ ]
+}

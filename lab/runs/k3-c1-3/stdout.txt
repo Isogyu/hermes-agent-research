@@ -1,0 +1,1 @@
+Created `out/report_2026-04.md`. Grand total: 40,430,000 JPY from 45 completed transactions. Independently verified category totals, ordering, grand-total arithmetic, and exactly three findings.

@@ -1,0 +1,5 @@
+Created and verified the May 2026 sales report at:
+
+`out/report_2026-05.md`
+
+It follows the current reporting rules, including counting pending orders, converting USD at the configured rate, and summing rounded category totals. The reported grand total is 37,992,000 JPY.

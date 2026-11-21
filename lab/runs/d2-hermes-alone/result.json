@@ -1,0 +1,1 @@
+{"name": "d2-hermes-alone", "outside_refs": 0, "month": "x", "seconds": 34, "api_calls": 7, "input": 99757, "cache_read": 86656, "output": 670, "tool_calls": 6, "skill_view": 0, "skill_manage": 0, "delegated": [], "score": 9, "pass": true, "check": {"score": 9, "of": 9, "pass": true, "tests_edited": false}, "completed": true}

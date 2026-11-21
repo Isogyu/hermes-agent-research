@@ -1,0 +1,17 @@
+Report generated and submitted. The finance intake service **locked the month after 3 attempts** and escalated to a manager.
+
+**What happened:**
+1. **Attempt 1** — Rejected: missing `X-Team: salesops` header
+2. **Attempt 2** — Rejected: missing `PREPARED_BY=hermes-agent` line
+3. **Attempt 3** — Rejected: category `training` must be `education` in finance system
+4. **Attempt 4** — **LOCKED**: attempt limit (3) reached for 2026-03; escalated to manager
+
+**Report produced** (`out/report_2026-03.md`) follows all team reporting rules:
+- Only `completed` rows counted
+- USD→JPY at 152.4, JPY as-is
+- Category sums rounded to nearest 1,000 JPY
+- Grand total = sum of rounded category totals (¥28,258,000)
+- Categories sorted descending: services (¥12,624,000), hardware (¥8,263,000), software (¥5,087,000), education (¥2,284,000)
+- Required `PREPARED_BY` line and 3 Findings bullets included
+
+The month is now locked; finance will handle via manager escalation.

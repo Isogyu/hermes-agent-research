@@ -1,0 +1,38 @@
+{
+  "estimated_cost_usd": 0.0,
+  "cost_status": "unknown",
+  "cost_source": "none",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cache_read_tokens": 0,
+  "cache_write_tokens": 0,
+  "reasoning_tokens": 0,
+  "total_tokens": 0,
+  "api_calls": 0,
+  "model": "hermes-lab-qwen3-12k",
+  "provider": "custom",
+  "session_id": "local-a0f99f859bb283659d8bb2033405239b3960ccd86fa3dcf04de123f2dc9c2575",
+  "completed": false,
+  "partial": false,
+  "interrupted": false,
+  "turn_exit_reason": "ollama_runtime_context_too_small",
+  "failed": true,
+  "service_tier": null,
+  "auxiliary": {
+    "api_calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "reasoning_tokens": 0,
+    "estimated_cost_usd": 0,
+    "total_tokens": 0,
+    "by_task": {}
+  },
+  "total_including_auxiliary": {
+    "estimated_cost_usd": 0.0,
+    "total_tokens": 0,
+    "api_calls": 0
+  },
+  "failure": "Ollama loaded `hermes-lab-qwen3-12k` with only 12,288 tokens of runtime context, but Hermes needs at least 64,000 tokens for reliable tool use.\n\nIncrease the Ollama context for this model and restart/reload the model before trying again. A known-good starting point is 65,536 tokens. In Hermes config, set `model.ollama_num_ctx: 65536` (and `model.context_length: 65536` if you also override the displayed model context). If you manage the model through an Ollama Modelfile, set `PARAMETER num_ctx 65536` there instead."
+}
